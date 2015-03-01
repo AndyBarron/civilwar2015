@@ -633,7 +633,6 @@ function(PIXI, Screen, Images, Collisions, constants, arrays) {
 		  onMouseDown: function(point)
 		  {
 		  //We can use the mouse to select enemies
-
 		  }
 	});
 	//console.log("WTFMATE");

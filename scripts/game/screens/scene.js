@@ -112,11 +112,20 @@ define(
               self.stage.addChild(bg);
             }
             // player
+			//ADD WALK HERE
             var pPaths = pData.frames || [
               'hat4.png',
+			  'hat4walk1.png',
+			  'hat4walk2.png',
               'hat4back.png',
+			  'hat4backwalk1.png',
+			  'hat4backwalk2.png',
               'hat4sideleft.png',
+			  'hat4sidewalk1.png',
+			  'hat4sidewalk2.png',
               'hat4sideright.png',
+			  'hat4sidewalk3.png',
+			  'hat4sidewalk4.png',
             ];
             var pTextures = pPaths.map(function(path) {
               return graphics.getTexture(path);
@@ -126,6 +135,9 @@ define(
             player.anchor.y = 0.5;
             player.position.x = pData.x || constants.STAGE_W / 2;
             player.position.y = pData.y || constants.STAGE_H / 2;
+			player.moved = false;
+			player.stepTimer = 29;
+			player.stepDir = 0;
             var pScale = pData.scale || 1;
             player.scale = new PIXI.Point(pScale, pScale);
             self.stage.addChild(player);
@@ -281,6 +293,7 @@ define(
           // actions that can't occur during dialog!
           if (!self.speaker) {
             // player movement
+			// ADD WALK HERE
             var moveKeys = [
               constants.KEYS_DOWN,
               constants.KEYS_UP,
@@ -288,14 +301,80 @@ define(
               constants.KEYS_RIGHT,
             ];
             moveKeys.forEach(function(keys, idx) {
-              if (!input.anyKeyDown(keys)) return;
+              if (!input.anyKeyDown(keys)){
+					return;
+			  }
+			  //console.log("KEY PRESSED!");
               var moveH = idx > 1;
               var mult = (idx == 1 || idx == 2) ? -1 : 1;
               var coord = moveH ? 'x' : 'y';
-              player.gotoAndStop(idx);
+			  //player.wasMoving = true;
+              //player.gotoAndStop(idx);
+			  player.stepDir = idx;
+			  player.moved = true;
               player.position[coord] += constants.PLAYER_SPEED * delta * mult;
               // console.log(moveH, mult);
+			  return;
             });
+			
+			if(player.moved){
+			//console.log("STEP: " + player.stepTimer);
+				player.moved = false;
+				if(player.stepDir == 0){
+					player.gotoAndStop(Math.floor(player.stepTimer/10));
+				}else if(player.stepDir == 1){
+					player.gotoAndStop(Math.floor(player.stepTimer/10) + 3);
+				}else if(player.stepDir == 2){
+					player.gotoAndStop(Math.floor(player.stepTimer/10) + 6);
+				}else if(player.stepDir == 3){
+					player.gotoAndStop(Math.floor(player.stepTimer/10) + 9);
+				}
+				player.stepTimer--;
+			}else{
+			//player.gotoAndStop(0);
+			}
+			if(player.stepTimer < 0){
+				player.stepTimer = 29;
+			}
+			/*
+					player.wasMoving = false;
+					if(idx == 0){
+						player.gotoAndStop(0);
+					}else if(idx == 1){
+						player.gotoAndStop(3);
+					}else if(idx == 2){
+						player.gotoAndStop(6);
+					}else if(idx == 3){
+						player.gotoAndStop(9);
+					}
+					
+					
+			if(player.wasMoving){
+				if(player.stepBool){
+					if(idx == 0){
+						player.gotoAndStop(1);
+					}else if(idx == 1){
+						player.gotoAndStop(4);
+					}else if(idx == 2){
+						player.gotoAndStop(7);
+					}else if(idx == 3){
+						player.gotoAndStop(10);
+					}
+					player.stepBool = false;
+				}else{
+					if(idx == 0){
+						player.gotoAndStop(2);
+					}else if(idx == 1){
+						player.gotoAndStop(5);
+					}else if(idx == 2){
+						player.gotoAndStop(8);
+					}else if(idx == 3){
+						player.gotoAndStop(11);
+					}
+					player.stepBool = true;
+				}
+			  }
+			*/
           }
           if (self.updated) {
             // PLAYER-NPC COLLISION
