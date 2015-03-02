@@ -8,264 +8,129 @@
     "scale": 0.2
   },
   "npcs": [
-  
     {
       "name": "Harriet Tubman",
       "texture": "tubman.png",
       "scale": 0.2,
-      "x": 200,
+      "x": 900,
       "y": 900,
       "dialog": [
         "Got a lot of bundles of wood headed up this way. Are you a friend of the flying bondsmen?%Yes, I am!|What are you talking about?",
         "Well I've got some parcel headed to the Freedom Train. Maybe you could help out sometime?|Never mind. Just an old woman rambling...",
 		"#test()|#startEscapeGame()"
-		]
-    },
-    {
-      "name": "Female Villager that Gives you Clothes",
-      "texture": "femalevillager.png",
-      "scale": 0.2,
-      "x": 300,
-      "y": 900,
-      "dialog": [
-        "Did you hear about the battle at Hampton Roads?%Yes, I did!|What battle?",
-        "Can you imagine? Iron ships! Apparently that soldier over there was present during the battle!|A huge battle between two iron ships!  That young soldier over there was on one of them."
-      ]
+	]
     },
 	{
-      "name": "Female Villager that Gossips about other town",
-      "texture": "femalevillager2.png",
+      "name": "General McClellan",
+      "texture": "mcclellan.png",
       "scale": 0.2,
-      "x": 400,
-      "y": 900,
-      "dialog": [
-	  "I've seen all three of my sons head off and fight...the farm just isn't the same without them..."
-      ]
-    },
-    {
-      "name": "Female Villager that does nothing",
-      "texture": "femalevillager.png",
-      "scale": 0.2,
-      "x": 500,
-      "y": 900,
-      "dialog": [
-	  "Both General McClellan and President Lincoln visiting today? It must be a special occassion..."
-      ]
-    },
-	{
-      "name": "Male Villager who gives you map",
-      "texture": "malevillager.png",
-      "scale": 0.2,
-      "x": 700,
-      "y": 900,
-      "dialog": [
-        "When the draft was called, half the town went to go fight.  Men up and left without an issue...not like those rioters in New York."
-      ]
-    },
-    {
-      "name": "Male Villager who says something about town",
-      "texture": "malevillager.png",
-      "scale": 0.2,
-      "x": 700,
-      "y": 900,
-      "dialog": [
-        "We're going to show those Yankees, you wait and see! The South is fine as it is - we don't need Lincoln!"
-      ]
-    },
-    {
-      "name": "Male Villager who says nothing",
-      "texture": "malevillager.png",
-      "scale": 0.2,
-      "x": 800,
-      "y": 900,
-      "dialog": [
-        "We're going to show those Yankees, you wait and see! The South is fine as it is - we don't need Lincoln!"
-		]
-    },
-    {
-      "name": "Male Villager",
-      "texture": "malevillager2.png",
-      "scale": 0.2,
-      "x": 900,
-      "y": 900,
-      "dialog": [
-        "I don't know what my wife will do if I go to fight. The farm is enough work as it is."
-		]
-    },
-	{
-      "name": "Female Escapee 1",
-      "texture": "harriet.png",
-      "scale": 1.0,
-      "x": 900,
-      "y": 1200,
-      "dialog": [
-	  " Abraham Lincoln is here in town today!  I want to go up and thank him for everything he's done but I'm afraid I'll get nervous..."
-		]
-    },
-	{
-      "name": "Female Escapee 2",
-      "texture": "harriet.png",
-      "scale": 1.0,
       "x": 1000,
-      "y": 1100,
-      "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
-		]
-    },
-	{
-      "name": "Female Escapee 3",
-      "texture": "harriet.png",
-      "scale": 1.0,
-      "x": 1000,
-      "y": 1200,
-      "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
-		]
-    },
-	{
-      "name": "Male Escapee 1",
-      "texture": "harriet.png",
-      "scale": 1.0,
-      "x": 1400,
       "y": 1400,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
-		]
+        "Well well! A fresh new face! A perfect candidate for a soldier!  Wait, how do I know that you are loyal to the right cause?%I'll prove my loyalty!|Who says I'm loyal?",
+		"You will eh? But how should we do this...|I don't want any talk of that here!",
+		"I know!  I will test your loyalty! Yes this should be good!|#END",
+		"Let's see...who is the one true Commander in Chief of this Nation?%Jefferson Davis!|Abraham Lincoln!",
+		"WRONG! I can't have a traitor in my army!|Correct! That one was way too easy!",
+		"#END|Hmmmm...let's see now...",
+		"Who is the lead general of the true America?%Ulysses S. Grant!|Robert E. Lee!",
+		"Well obviously!|Traitor! Come back when you're loyal to the cause!",
+		"Alright...one final stumper!|#END",
+		"Our side had a tactical win with a new breed of ironclad ships at Hampton Roads! What was our vessel called?%Monitor|Merrimac",
+		"Seems that you are a true American!  I never should have doubted you for a second.|AHA! I knew I could catch you with that one.  Come back when you are a true American.",
+		"#test2()|#END"
+	]
     },
 	{
-      "name": "Male Escapee 2",
+      "name": "Abraham Lincoln",
+      "texture": "abe.png",
+      "scale": 0.2,
+      "x": 1000,
+      "y": 2000,
+      "dialog": [
+	  "Good day! I'm workshopping a speech that I am going to have to give in Pennysylvania very soon. Would you like to hear some of it?%Sure!|Maybe another time, Mr. President.",
+		"Well okay then. Here it goes...|No problem at all. It's not really done yet anyway",
+		" Eighty-seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal. |#END",
+		"Huh..I still feel like something isn't right...%Maybe a different way to say 87?|It seems perfect as is!",
+		"Hmmm...you may be right.  I'll think on it!  Thank you for your help, young man!|That's very kind of you, but I'm not sure about that...",
+		"#test3()|#END"
+	]
+    },
+	{
+      "name": "Female Villager",
+      "texture": "harriet.png",
+      "scale": 1.0,
+      "x": 1000,
+      "y": 200,
+      "dialog": [
+	  " Abraham Lincoln is here in town today!  I want to go up and thank him for everything he's done but I'm afraid I'll get nervous..."
+	]
+    },
+	{
+      "name": "Female Villager",
       "texture": "harriet.png",
       "scale": 1.0,
       "x": 1500,
-      "y": 1500,
+      "y": 1200,
       "dialog": [
 	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
 	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
-		]
+	]
     },
 	{
-      "name": "Male Slave that gives hint about canteen",
-      "texture": "harriet.png",
-      "scale": 1.0,
-      "x": 200,
-      "y": 2000,
-      "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
-		]
-    },
-	{
-      "name": "Male Slave who gives food 1",
-      "texture": "harriet.png",
-      "scale": 1.0,
-      "x": 350,
-      "y": 2000,
-      "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
-		]
-    },
-	{
-      "name": "Male Slave who gives food 2",
-      "texture": "harriet.png",
-      "scale": 1.0,
+      "name": "Harper's Weekly",
+      "texture": "newspaper.png",
+      "scale": 0.2,
       "x": 500,
-      "y": 2000,
+      "y": 1100,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
-		]
+	  "MAJOR-GENERAL GEORGE G. MEADE, THE NEW COMMANDER OF THE ARMY OF THE POTOMAC.",
+	  "#paper1()"
+	]
     },
 	{
-      "name": "Male Slave who does nothing",
-      "texture": "harriet.png",
-      "scale": 1.0,
-      "x": 650,
-      "y": 2000,
+      "name": "Harper's Weekly",
+      "texture": "newspaper.png",
+      "scale": 0.2,
+      "x": 2200,
+      "y": 2100,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
-		]
+	  "EXECUTION, BY HANGING, OF TWO REBEL SPIES, WILLIAMS AND PETERS, IN THE ARMY OF THE CUMBERLAND",
+	  "#paper2()"
+	]
     },
 	{
-      "name": "Male Slave who does nothing",
-      "texture": "harriet.png",
-      "scale": 1.0,
-      "x": 800,
-      "y": 2000,
+      "name": "Harper's Weekly",
+      "texture": "newspaper.png",
+      "scale": 0.2,
+      "x": 2300,
+      "y": 700,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
-		]
+	  "NEW PORTRAIT OF MAJOR-GENERAL GRANT THE HERO OF VICKSBURG ",
+	  "#paper3()"
+	]
     },
 	{
-      "name": "Male Slave who does nothing",
-      "texture": "harriet.png",
-      "scale": 1.0,
-      "x": 950,
-      "y": 2000,
+      "name": "Harper's Weekly",
+      "texture": "newspaper.png",
+      "scale": 0.2,
+      "x": 200,
+      "y": 550,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
-		]
+	  "THE ARMY OF THE CUMBERLAND.-A TROOP TRAIN PASSING THROUGH THE BIG CUT ON THE LOUISVILLE AND NASHVILLE RAILROAD",
+	  "#paper4()"
+	]
     },
 	{
-      "name": "FeMale Slave who gives food",
-      "texture": "harriet.png",
-      "scale": 1.0,
-      "x": 1100,
-      "y": 2000,
+      "name": "Harper's Weekly",
+      "texture": "newspaper.png",
+      "scale": 0.2,
+      "x": 600,
+      "y": 2200,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
-		]
-    },
-	{
-      "name": "FeMale Slave who gives heresay",
-      "texture": "harriet.png",
-      "scale": 1.0,
-      "x": 1350,
-      "y": 2000,
-      "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
-		]
-    },
-	{
-      "name": "FeMale Slave who does gives hint about good guy",
-      "texture": "harriet.png",
-      "scale": 1.0,
-      "x": 1500,
-      "y": 2000,
-      "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
-		]
-    },
-	{
-      "name": "FeMale Slave who does nothing",
-      "texture": "harriet.png",
-      "scale": 1.0,
-      "x": 1650,
-      "y": 2000,
-      "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
-		]
-    },
-	{
-      "name": "FeMale Slave who does nothing",
-      "texture": "harriet.png",
-      "scale": 1.0,
-      "x": 1800,
-      "y": 2000,
-      "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
-		]
+	  " THE SIEGE OF CHARLESTON—THE BOATS FOR THE ATTACK OF GREGG ON THEIR WAY. ",
+	  "#paper5()"
+	]
     },
 	{
       "name": "",
@@ -1232,6 +1097,109 @@
       "y": -100,
       "dialog": [
 	]
+    },
+    {
+      "name": "Female Villager",
+      "texture": "femalevillager.png",
+      "scale": 0.2,
+      "x": 1600,
+      "y": 1000,
+      "dialog": [
+        "Did you hear about the battle at Hampton Roads?%Yes, I did!|What battle?",
+        "Can you imagine? Iron ships! Apparently that soldier over there was present during the battle!|A huge battle between two iron ships!  That young soldier over there was on one of them."
+      ]
+    },
+	{
+      "name": "Female Villager",
+      "texture": "femalevillager2.png",
+      "scale": 0.2,
+      "x": 500,
+      "y": 1600,
+      "dialog": [
+	  "I've seen all three of my sons head off and fight...the farm just isn't the same without them..."
+      ]
+    },
+    {
+      "name": "Female Villager",
+      "texture": "femalevillager.png",
+      "scale": 0.2,
+      "x": 2000,
+      "y": 1400,
+      "dialog": [
+	  "Both General McClellan and President Lincoln visiting today? It must be a special occassion..."
+      ]
+    },
+    {
+      "name": "Female Villager",
+      "texture": "femalevillager2.png",
+      "scale": 0.2,
+      "x": 1200,
+      "y": 500,
+      "dialog": [
+        "That Union Soldier told me he just came back from Newport News."
+      ]
+    },
+	 {
+      "name": "Male Villager",
+      "texture": "malevillager.png",
+      "scale": 0.2,
+      "x": 1600,
+      "y": 2000,
+      "dialog": [
+        "When the draft was called, half the town went to go fight.  Men up and left without an issue...not like those rioters in New York."
+      ]
+    },
+	 {
+      "name": "Male Villager",
+      "texture": "malevillager2.png",
+      "scale": 0.2,
+      "x": 200,
+      "y": 2000,
+      "dialog": [
+        "I love getting to see all the updates through The Harper's Ferry.  It's such a detailed look at what's going on!"
+      ]
+    },
+    {
+      "name": "Male Villager",
+      "texture": "malevillager.png",
+      "scale": 0.2,
+      "x": 1600,
+      "y": 2000,
+      "dialog": [
+        "We're going to show those Yankees, you wait and see! The South is fine as it is - we don't need Lincoln!"
+      ]
+    },
+    {
+      "name": "Male Villager",
+      "texture": "malevillager2.png",
+      "scale": 0.2,
+      "x": 1900,
+      "y": 400,
+      "dialog": [
+        "I don't know what my wife will do if I go to fight. The farm is enough work as it is."
+      ]
+    },
+    {
+      "name": "Union Soldier",
+      "texture": "unionsoldier.png",
+      "scale": 0.2,
+      "x": 2200,
+      "y": 100,
+      "dialog": [
+        "Do you have time to hear about my experiences on the Monitor?%Tell me more!|Maybe later...",
+        "Prepare for an amazing tale!|Some other time, then.",
+        "#startShipGame()|#END"
+      ]
+    },
+    {
+      "name": "Confederate Soldier",
+      "texture": "confederatesoldier.png",
+      "scale": 0.2,
+      "x": 200,
+      "y": 1100,
+      "dialog": [
+        "I am a prisoner in this town!  The Yankees have no honor. The pride of the Southern Gentlemen will prevail!"
+      ]
     }
   ]
 }

@@ -7,7 +7,7 @@ define(
 	var count = 0;
 	var papercount = 0;
     var hubScene = scene('data/scenes/hub.json');
-	hubScene.music = new Audio('/assets/music/town_music.ogg');
+	hubScene.music = new Audio('./assets/music/town_music.ogg');
 	hubScene.music.loop = true;
 	hubScene.music.play();
     hubScene.startEscapeGame = function() {
