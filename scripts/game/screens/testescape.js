@@ -2,10 +2,11 @@ define(
   ['pixi', 'engine/classes/Screen', 'engine/graphics', 'engine/geometry'],
 function(PIXI, Screen, Images, Collisions) {
 
-	function graphnode(sprite,name,adjacent){
+	function graphnode(num, sprite,name,adjacent){
 		this.sprite = sprite;
 		this.name = name;
 		this.adjacent = adjacent;
+		this.num = num;
 		this.touching = function(pos){
 		console.log(pos);
 			if(Collisions.doRectanglesOverlap(this.sprite.getBounds(), pos, 0)){
@@ -31,8 +32,10 @@ function(PIXI, Screen, Images, Collisions) {
 			this.sprite.gotoAndStop(3);
 		}
 		this.isAdj = function(node){
+		console.log("COMPARE: " + node);
+		console.log(adjacent);
 			for(var key in adjacent){
-				if(adjacent[key] == node){
+				if(adjacent[key].num == node){
 					return true;
 				}
 			}
@@ -84,10 +87,31 @@ function(PIXI, Screen, Images, Collisions) {
 			  
 			  for(var key in arrData){
 				  //alert(arrData[key][2]);
-				  var tempnode = new graphnode(new PIXI.MovieClip(markTexture), arrData[key][1],[]);
+				  var tempnode = new graphnode(arrData[key][0],new PIXI.MovieClip(markTexture), arrData[key][1],[]);
 				  self.stage.addChild(tempnode.sprite);
 				  tempnode.sprite.position.x = arrData[key][2];
 				  tempnode.sprite.position.y = arrData[key][3];
+				  tempnode.sprite.setInteractive(true);
+				  tempnode.sprite.num = tempnode.num;
+				  tempnode.sprite.mousedown = function(mouseData){
+				  //console.log(self);
+				  console.log(this.num);
+				  //self.graph[self.playernode].isAdj(this.num);
+						if(self.graph[self.playernode].isAdj(this.num) && self.moves > 0){
+						//self.playerturn = false;
+						self.graph[self.playernode].setinvis();
+						self.graph[this.num - 1].setvis();
+						self.playernode = this.num - 1;
+						self.moves = self.moves - 1;
+						//break;
+					}
+					if (self.playernode == 0 || self.playernode == 27 || self.playernode == 31 || self.playernode == 39 || self.playernode == 43 ){
+					alert("you win!");
+					self.graph[self.playernode].setinvis();
+					//self.changeScreen(TestWorldScreen);
+					self.playernode = 0;
+				}
+				  }
 				  
 				  this.answerText1 = new PIXI.Text(arrData[key][0]);
 				  this.answerText1.position.x = tempnode.sprite.position.x;
@@ -139,51 +163,7 @@ function(PIXI, Screen, Images, Collisions) {
 		  },
 		  onMouseDown: function(point)
 		  {
-			if(this.playerturn){
-				//this.graph[this.playernode].setvis();
-				for(var i = 0; i < this.graph.length; i++){
-				//console.log("checking node " + i);
-					if(this.graph[i].touching(point) && this.graph[this.playernode].isAdj(this.graph[i]) && this.moves > 0){
-						this.playerturn = false;
-						console.log("MOVING TO NODE " + i);
-						this.graph[this.playernode].setinvis();
-						this.graph[i].setvis();
-						this.playernode = i;
-						this.moves = this.moves - 1;
-						break;
-					}
-				}
-				if (this.playernode == 0 || this.playernode == 27 || this.playernode == 31 || this.playernode == 39 || this.playernode == 43 ){
-					alert("you win!");
-					this.graph[this.playernode].setinvis();
-					this.changeScreen(TestWorldScreen);
-					this.playernode = 0;
-				}
-					if (this.enemynode == this.playernode){
-						alert("you lose!");
-						this.graph[this.playernode].setinvis();
-						this.changeScreen(TestWorldScreen);
-						this.playernode = 0;
-					}
-			}else{
-				for(var i = 0; i < this.graph.length; i++){
-					//console.log("checking node " + i);
-					if(this.graph[i].touching(point) && this.graph[this.enemynode].isAdj(this.graph[i]) && i != 0 && i != 27 && i != 31 && i != 39 && i != 43){
-						this.playerturn = true;
-						console.log("MOVING ENEMY TO NODE " + i);
-						this.graph[this.enemynode].setinvis();
-						this.graph[i].setenemy();
-						this.enemynode = i;
-						//this.moves = this.moves - 1;
-					}
-				}
-				if (this.enemynode == this.playernode){
-					alert("you lose!");
-					this.graph[this.playernode].setinvis();
-					this.changeScreen(TestWorldScreen);
-					this.playernode = 0;
-				}
-			}
+		  //console.log(this.stage.getMousePosition);
 		  }
 	});
 	  return SampleMiniGame;
