@@ -69,8 +69,8 @@ function(PIXI, Screen, Images, Collisions) {
 		self.enemynode = 21;
 		self.graph[self.playernode].setvis();
 		self.moves = 100;
-		self.switchtimer = 120;
-	}
+		self.switchtimer = 70;
+	}//might need to change switchtimer
 
 	var SampleMiniGame = new Screen({
 		init: function(){
@@ -88,14 +88,41 @@ function(PIXI, Screen, Images, Collisions) {
 				this.enemynode = 21;
 				this.moves = 100;
 				this.graphtext = new PIXI.Text("Click a node to get started!", {
-font : "24px Arial",
-fill : "black",
-wordWrap : true,
-wordWrapWidth : 200
-});
-this.graphtext.position.x = 560;
-this.graphtext.position.y = 10;
-this.stage.addChild(this.graphtext);
+				font : "24px Arial",
+				fill : "black",
+				wordWrap : true,
+				wordWrapWidth : 200
+				});
+				this.graphtext.position.x = 560;
+				this.graphtext.position.y = 400;
+				this.stage.addChild(this.graphtext);
+				this.statictext = new PIXI.Text("The Underground Railroad", {
+				font : "36px Arial",
+				fill : "black",
+				wordWrap : true,
+				wordWrapWidth : 200
+				});
+				this.statictext.position.x = 560;
+				this.statictext.position.y = 10;
+				this.stage.addChild(this.statictext);
+				this.statictext2 = new PIXI.Text("Post-1850: The Fugitive Slave Act is in effect", {
+				font : "30px Arial",
+				fill : "black",
+				wordWrap : true,
+				wordWrapWidth : 200
+				});
+				this.statictext2.position.x = 560;
+				this.statictext2.position.y = 140;
+				this.stage.addChild(this.statictext2);
+				this.turntext = new PIXI.Text("Player's Turn", {
+				font : "24px Arial",
+				fill : "blue",
+				wordWrap : true,
+				wordWrapWidth : 200
+				});
+				this.turntext.position.x = 560;
+				this.turntext.position.y = 480;
+				this.stage.addChild(this.turntext);					
 			  //this.graph[this.playernode].setvis();
 				arrData = [];
 					$.ajax({
@@ -189,20 +216,24 @@ this.stage.addChild(this.graphtext);
 			  self.graph[40].setescape();
 			  self.graph[43].setescape();
 			  self.playerturn = true;
-			  self.switchtimer = 120;
+			  self.switchtimer = 70;
 			  }
 		  },
 		  update: function(delta)
 		  {
 			  if(this.switchtimer < 1){
-					this.switchtimer = 120;
+					this.switchtimer = 70;
 					if(this.playerturn){
+						this.turntext.setText("Player's Turn");
+						this.turntext.setStyle({font : "24px Arial",fill:"blue"});
 						this.graph[this.enemynode].setinvis();
 						if (this.enemynode == 0 || this.enemynode == 27 || this.enemynode == 31 || this.enemynode == 39 || this.enemynode == 43 ){
 							this.graph[this.enemynode].setescape();
 						}
 						this.graph[this.playernode].setvis();
 					}else{
+						this.turntext.setText("Enemy's Turn");
+						this.turntext.setStyle({font : "24px Arial",fill:"orange"});
 						this.graph[this.playernode].setinvis();
 						this.graph[this.enemynode].setenemy();
 						enemyTurn(this);
