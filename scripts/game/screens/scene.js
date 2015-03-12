@@ -6,10 +6,12 @@ define(
   function(PIXI, Screen, graphics, input,
       geometry, helpers, arrays, constants) {
     'use strict';
+	
     return function(url) {
 	
-		
+
       function startDialog(npc) {
+		stage.addChild(graphics);
         var self = this;
         if (!npc.dialog) return;
         self.speaker = npc;
