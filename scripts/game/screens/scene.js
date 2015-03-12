@@ -11,8 +11,8 @@ define(
 	
 
       function startDialog(npc) {
-		stage.addChild(graphics);
         var self = this;
+		//self.stage.addChild(graphics);
         if (!npc.dialog) return;
         self.speaker = npc;
         self.line = -1;
