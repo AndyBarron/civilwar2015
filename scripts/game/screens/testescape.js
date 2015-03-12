@@ -1,7 +1,9 @@
 define(
   ['pixi', 'engine/classes/Screen', 'engine/graphics', 'engine/geometry'],
 function(PIXI, Screen, Images, Collisions) {
-
+	function getHubScreen() {
+		return require('game/screens/GameHub');
+	}
 	function graphnode(num, sprite,name,adjacent){
 		this.sprite = sprite;
 		this.name = name;
@@ -94,23 +96,25 @@ function(PIXI, Screen, Images, Collisions) {
 				  tempnode.sprite.setInteractive(true);
 				  tempnode.sprite.num = tempnode.num;
 				  tempnode.sprite.mousedown = function(mouseData){
-				  //console.log(self);
-				  console.log(this.num);
-				  //self.graph[self.playernode].isAdj(this.num);
-						if(self.graph[self.playernode].isAdj(this.num) && self.moves > 0){
-						//self.playerturn = false;
-						self.graph[self.playernode].setinvis();
-						self.graph[this.num - 1].setvis();
-						self.playernode = this.num - 1;
-						self.moves = self.moves - 1;
-						//break;
-					}
-					if (self.playernode == 0 || self.playernode == 27 || self.playernode == 31 || self.playernode == 39 || self.playernode == 43 ){
-					alert("you win!");
-					self.graph[self.playernode].setinvis();
-					//self.changeScreen(TestWorldScreen);
-					self.playernode = 0;
-				}
+					  //console.log(self);
+					  console.log(this.num);
+					  //self.graph[self.playernode].isAdj(this.num);
+							if(self.graph[self.playernode].isAdj(this.num) && self.moves > 0){
+							//self.playerturn = false;
+							self.graph[self.playernode].setinvis();
+							self.graph[this.num - 1].setvis();
+							self.playernode = this.num - 1;
+							self.moves = self.moves - 1;
+							//break;
+						}
+						if (self.playernode == 0 || self.playernode == 27 || self.playernode == 31 || self.playernode == 39 || self.playernode == 43 ){
+						alert("you win!");
+						self.graph[self.playernode].setescape();
+						self.playernode = 10;
+						self.graph[self.playernode].setvis();
+						self.moves = 100;
+						self.changeScreen(getHubScreen());
+						}
 				  }
 				  
 				  this.answerText1 = new PIXI.Text(arrData[key][0]);
@@ -159,6 +163,7 @@ function(PIXI, Screen, Images, Collisions) {
 			{
 			  this.changeScreen(TestWorldScreen);
 			}*/
+			this.changeScreen(getHubScreen());
 			
 		  },
 		  onMouseDown: function(point)
