@@ -21,45 +21,91 @@
 		"#test()|#startEscapeGame()"
 		]
     },
+	{
+      "name": "Newspaper",
+      "texture": "newspaper.png",
+      "scale": 0.2,
+      "x": 200,
+      "y": 1800,
+      "dialog": [
+	  "SEPTEMBER 1850, CONGRESS REACHES A GREAT COMPROMISE LED BY HENRY CLAY AND STEPHEN DOUGLAS",
+	  "Congress admits CALIFORNIA into the Union as a FREE STATE.",
+	  "Both the territories of UTAH and NEW MEXICO are organized now under rule of POPULAR SOVEREIGNTY.",
+	  "And a harsher FUGITIVE SLAVE ACT has been passed in Congress.",
+	  "This is already being claimed as greatest compromise since the MISSOURI COMPROMISE OF 1820."
+		]
+    },
     {
-      "name": "Female Villager that Gives you Clothes",
-      "texture": "femalevillager.png",
+      "name": "Female Villager",
+      "texture": "femalevillager2.png",
       "scale": 0.2,
       "x": 300,
       "y": 900,
       "dialog": [
-        "Did you hear about the battle at Hampton Roads?%Yes, I did!|What battle?",
-        "Can you imagine? Iron ships! Apparently that soldier over there was present during the battle!|A huge battle between two iron ships!  That young soldier over there was on one of them."
+        "Can I help you, sir?%I think you are a friend of HARRIET TUBMAN!|Nope!",
+        "ME? A friend of the most famous UNDERGROUND RAILROAD CONDUCTOR?|Okay...",
+		"That's a very big claim! (and one that can get me in some trouble...)|#END",
+		"(hmmmm how can I find out whether I can trust him)",
+		"(I know! I can test him! Good thinking, Susan!)",
+		"Alright, let me make sure you're a true ABOLITIONIST, want to take my test?%Yes!|No!",
+		"Excellent!|Oh...okay then.",
+		"(Hmmm....question one, question one...)|#END",
+		"Who is the editor for THE LIBERATOR?%William Lloyd Garrison|Jefferson Davis",
+		"Too easy! Even a SECESSIONIST would know that one!|WRONG! Come back when you're a true ABOLITIONIST.",
+		"(Hmmm...question two, question two...)|#END",
+		"Alright! What is the name of HARRIET BEECHER STOWE'S book?%A Tale of Two Cities|Uncle Tom's Cabin",
+		"So very wrong! Try reading an ABOLITIONIST book next time!|Uncle Tom's Cabin is correct! (lucky guess...)",
+		"#END|(Alright...question three, question three, final question, gotta stump him...)",
+		"AHA! The MISSOURI COMPROMISE 30 years ago added what state to OUR SIDE of the Union. The FREE Side!%Missouri|Maine",
+		"If that's your side of the Union, than you might as well be a SECESSIONIST!|You're right! Maine is the free state that was added!",
+		"Missouri is a SLAVE STATE!|I'm sorry for doubting you, you have to be very cautious in the South.",
+		"#END|Ever since the FUGITIVE SLAVE ACT, any one who helps out an escaped slave can be fined!",
+		"Worse, the slave will be dragged back to their master's plantation.",
+		"Even if they were in a free state!",
+		"The only safe place now for slaves is out of the country!",
+		"Here! Take these clothes.  Hopefully you are able to get up North!",
+		"Safe travels, and remember, if anyone needs a STATIONMASTER, me and my husband are here to serve!"
       ]
     },
 	{
-      "name": "Female Villager that Gossips about other town",
-      "texture": "femalevillager2.png",
+      "name": "Female Villager",
+      "texture": "femalevillager.png",
       "scale": 0.2,
       "x": 400,
       "y": 900,
       "dialog": [
-	  "I've seen all three of my sons head off and fight...the farm just isn't the same without them..."
+	  "There's been word that a UNDERGROUND RAILROAD STATIONMASTER was caught just a few miles left of here.",
+	  "Serves him right for trying to shuffle slaves up North.",
+	  "Or was it a woman? Either way, shame on him!",
+	  "...Or her!"
       ]
     },
     {
-      "name": "Female Villager that does nothing",
+      "name": "Female Villager",
       "texture": "femalevillager.png",
       "scale": 0.2,
       "x": 500,
       "y": 900,
       "dialog": [
-	  "Both General McClellan and President Lincoln visiting today? It must be a special occassion..."
+	  "I'm reading this book by HARRIET BEECHER STOWE.  Have you heard of it?%Yes!|What book?",
+	  "Oh, so you've read it too?|It's this book called UNCLE TOM'S CABIN.",
+	  "Apparently a lot of folks love this up North.",
+	  "I'm no ABOLITIONIST, but I can't help to feel put off by some of the things in here..."
       ]
     },
 	{
-      "name": "Male Villager who gives you map",
+      "name": "Male Villager",
       "texture": "malevillager.png",
       "scale": 0.2,
       "x": 700,
       "y": 900,
       "dialog": [
-        "When the draft was called, half the town went to go fight.  Men up and left without an issue...not like those rioters in New York."
+        "Pssst! You there. You wouldn't happen to know if the CONDUCTOR is in town, would you?%Maybe I do|Nope",
+        "Aha! A fellow ABOLITIONIST!|My mistake...I thought you were a fighter for freedom...",
+		"You see? Not all Southerners are slaveholders.|#END",
+		"Make sure you have this map.  It will help you plan your route.",
+		"Also, talk to my wife! She can get you clothes.",
+		"She is very cautious though, so make sure you answer her questions right!"
       ]
     },
     {
@@ -73,13 +119,15 @@
       ]
     },
     {
-      "name": "Male Villager who says nothing",
+      "name": "Male Villager",
       "texture": "malevillager.png",
       "scale": 0.2,
       "x": 800,
       "y": 900,
       "dialog": [
-        "We're going to show those Yankees, you wait and see! The South is fine as it is - we don't need Lincoln!"
+        "Did you hear? Congress just passed a series of bills in a huge COMPROMISE.",
+		"HENRY CLAY and STEPHEN DOUGLAS helped write it.",
+		"I read about them in that newspaper over there."
 		]
     },
     {
@@ -89,182 +137,194 @@
       "x": 900,
       "y": 900,
       "dialog": [
-        "I don't know what my wife will do if I go to fight. The farm is enough work as it is."
+        "I'm not sure how I feel about the COMPROMISE of 1850.",
+		"I like how the North and South were able to find a way to settle issues...",
+		"But I'm afraid it will only last for so long...",
+		"I mean, sure, a compromise was reached today.",
+		"But what if a compromise can't be reached in the future?",
+		"What will happen to this young country?"
 		]
     },
 	{
-      "name": "Female Escapee 1",
+      "name": "Female Slave",
       "texture": "harriet.png",
       "scale": 1.0,
       "x": 900,
       "y": 1200,
       "dialog": [
-	  " Abraham Lincoln is here in town today!  I want to go up and thank him for everything he's done but I'm afraid I'll get nervous..."
+	  "Can I do something for you, sir?%Are you looking to get on the RAILROAD?|Nope.",
+	  "Are you a CONDUCTOR? Oh thank the Lord!|Okay then...",
+	  "Ever since the FUGITIVE SLAVE ACT was passed, I thought I would never be able to safely get up North.|#END"
 		]
     },
 	{
-      "name": "Female Escapee 2",
+      "name": "Female Slave",
       "texture": "harriet.png",
       "scale": 1.0,
       "x": 1000,
       "y": 1100,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
+	  "Are you the CONDUCTOR?%Yes I am!|No",
+	  "Excellent! I am ready to go whenever!|Oh...forget I said anything."
 		]
     },
 	{
-      "name": "Female Escapee 3",
+      "name": "Female Slave",
       "texture": "harriet.png",
       "scale": 1.0,
       "x": 1000,
       "y": 1200,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
+	  "I'm ready to get on the RAILROAD whenever you are, sir!"
 		]
     },
 	{
-      "name": "Male Escapee 1",
+      "name": "Male Slave",
       "texture": "harriet.png",
       "scale": 1.0,
       "x": 1400,
       "y": 1400,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
+	  "I'm ready to go whenever HARRIET TUBMAN is, sir!"
 		]
     },
 	{
-      "name": "Male Escapee 2",
+      "name": "Male Slave",
       "texture": "harriet.png",
       "scale": 1.0,
       "x": 1500,
       "y": 1500,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
+	  "I heard you are shuffling slaves up North...%Indeed, I am|Who me?",
+	  "Excellent. I have my stuff packed! Just give me the word when we're leaving.|Oh, my mistake then sir."
 		]
     },
 	{
-      "name": "Male Slave that gives hint about canteen",
+      "name": "Male Slave",
       "texture": "harriet.png",
       "scale": 1.0,
       "x": 200,
       "y": 2000,
       "dialog": [
 	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
+	  "I think that's a fine and brave deed, but there's no way I want to get too associated with that.",
+	  "The new FUGITIVE SLAVE ACT is too frightening for me to try and leave.",
+	  "I do have supplies for the runaways hidden under a tree here.",
+	  "I just wish I remember which tree it was..." 
 		]
     },
 	{
-      "name": "Male Slave who gives food 1",
+      "name": "Male Slave",
       "texture": "harriet.png",
       "scale": 1.0,
       "x": 350,
       "y": 2000,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
+	  "I hear you're helping my friends on the UNDERGROUND RAILROAD",
+	  "They'll need food if they're going to survive...Take this!"
 		]
     },
 	{
-      "name": "Male Slave who gives food 2",
+      "name": "Male Slave",
       "texture": "harriet.png",
       "scale": 1.0,
       "x": 500,
       "y": 2000,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
+	  "Although the STATIONMASTERS on the UNDERGROUND RAILROAD will have food, it's better to be safe than sorry.",
+	  "Please, take this with you!"
 		]
     },
 	{
-      "name": "Male Slave who does nothing",
+      "name": "Male Slave",
       "texture": "harriet.png",
       "scale": 1.0,
       "x": 650,
       "y": 2000,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
+	  "I have been able to sneak in some literature using some underground networks.",
+	  "I am a huge fan of WILLIAM LLOYD GARRISON'S THE LIBERATOR.  I feel like he really understands our plight.",
+	  "I recently got UNCLE TOM'S CABIN by HARRIET BEECHER STOWE.",
+	  "I've been reading that to the others at night when the masters are asleep.",
+	  "Such a beautiful book. I heard even the Queen of England liked it!"
 		]
     },
 	{
-      "name": "Male Slave who does nothing",
+      "name": "Male Slave",
       "texture": "harriet.png",
       "scale": 1.0,
       "x": 800,
       "y": 2000,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
+	  "I've been hearing the masters debate over this new COMPROMISE Congress has passed.",
+	  "All I know is that things are definitely going to get harder for runaway slaves."
 		]
     },
 	{
-      "name": "Male Slave who does nothing",
+      "name": "Male Slave",
       "texture": "harriet.png",
       "scale": 1.0,
       "x": 950,
       "y": 2000,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
+	  "If I was half as brave as HARRIET TUBMAN, I'd be a CONDUCTOR too!"
 		]
     },
 	{
-      "name": "FeMale Slave who gives food",
+      "name": "Female Slave",
       "texture": "harriet.png",
       "scale": 1.0,
       "x": 1100,
       "y": 2000,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
+	  "You're doing a wonderful thing for my friends, sir!",
+	  "Please take this on your journey."
 		]
     },
 	{
-      "name": "FeMale Slave who gives heresay",
+      "name": "Female Slave",
       "texture": "harriet.png",
       "scale": 1.0,
       "x": 1350,
       "y": 2000,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
+	  "I hear you are trying to shuffle some of my friends out of here.",
+	  "If I were you, don't go to the town directly north of here.",
+	  "The STATIONMASTER had to move away so there's no place to rest."
 		]
     },
 	{
-      "name": "FeMale Slave who does gives hint about good guy",
+      "name": "Female Slave",
       "texture": "harriet.png",
       "scale": 1.0,
       "x": 1500,
       "y": 2000,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
+	  "A lot of southerners these days are ANTI-ABOLITIONIST and some are even SECESSIONISTS.",
+	  "However, I think a man and his wife on this plantation are actually undercover ABOLITIONISTS."
 		]
     },
 	{
-      "name": "FeMale Slave who does nothing",
+      "name": "Female Slave",
       "texture": "harriet.png",
       "scale": 1.0,
       "x": 1650,
       "y": 2000,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
+	  "If I talk to you, the master might get mad."
 		]
     },
 	{
-      "name": "FeMale Slave who does nothing",
+      "name": "Female Slave",
       "texture": "harriet.png",
       "scale": 1.0,
       "x": 1800,
       "y": 2000,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get associated with that."
+	  "People are happy about the COMPROMISE, but it's just like the MISSOURI COMPROMISE 30 years ago.",
+	  "It will make people happy in the North like adding Maine.",
+	  "And it will make people happy in the South like adding Missouri",
+	  "But it will only make them happy for a short period of time."
 		]
     },
 	{
@@ -274,6 +334,7 @@
       "x": 800,
       "y": 750,
       "dialog": [
+	  "AHA! The canteen is under here!"
 	]
     },
 	{
