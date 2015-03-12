@@ -66,7 +66,7 @@ function(PIXI, Screen, Images, Collisions) {
 	
 	function resetGame(self){
 		self.playernode = 10;
-		self.enemynode = 22;
+		self.enemynode = 21;
 		self.graph[self.playernode].setvis();
 		self.moves = 100;
 		self.switchtimer = 120;
@@ -85,8 +85,17 @@ function(PIXI, Screen, Images, Collisions) {
 
 				this.graph = [];
 				this.playernode = 10;
-				this.enemynode = 22;
+				this.enemynode = 21;
 				this.moves = 100;
+				this.graphtext = new PIXI.Text("Click a node to get started!", {
+font : "24px Arial",
+fill : "black",
+wordWrap : true,
+wordWrapWidth : 200
+});
+this.graphtext.position.x = 560;
+this.graphtext.position.y = 10;
+this.stage.addChild(this.graphtext);
 			  //this.graph[this.playernode].setvis();
 				arrData = [];
 					$.ajax({
@@ -132,6 +141,7 @@ function(PIXI, Screen, Images, Collisions) {
 								self.graph[self.playernode].setinvis();
 								self.graph[this.num - 1].setvis();
 								self.playernode = this.num - 1;
+								self.graphtext.setText(self.graph[self.playernode].name);
 								self.moves = self.moves - 1;
 								//break;
 							}
@@ -176,7 +186,7 @@ function(PIXI, Screen, Images, Collisions) {
 			  self.graph[0].setescape();
 			  self.graph[27].setescape();
 			  self.graph[31].setescape();
-			  self.graph[39].setescape();
+			  self.graph[40].setescape();
 			  self.graph[43].setescape();
 			  self.playerturn = true;
 			  self.switchtimer = 120;
