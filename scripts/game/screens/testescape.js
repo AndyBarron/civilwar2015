@@ -66,10 +66,17 @@ function(PIXI, Screen, Images, Collisions) {
 	
 	function resetGame(self){
 		self.playernode = 10;
+		self.graph[self.enemynode].setinvis();
 		self.enemynode = 21;
 		self.graph[self.playernode].setvis();
 		self.moves = 100;
+		self.graph[0].setescape();
+	    self.graph[27].setescape();
+	    self.graph[31].setescape();
+	    self.graph[40].setescape();
+	    self.graph[43].setescape();
 		self.switchtimer = 70;
+		self.playerturn = true;
 	}//might need to change switchtimer
 
 	var SampleMiniGame = new Screen({
@@ -194,10 +201,10 @@ function(PIXI, Screen, Images, Collisions) {
 				  }
 				  
 				  //Adds numbers to nodes for debugging
-				  this.answerText1 = new PIXI.Text(arrData[key][0]);
+				  /*this.answerText1 = new PIXI.Text(arrData[key][0]);
 				  this.answerText1.position.x = tempnode.sprite.position.x;
 				  this.answerText1.position.y = tempnode.sprite.position.y;
-				  self.stage.addChild(this.answerText1);
+				  self.stage.addChild(this.answerText1);*/
 				  
 				  self.graph.push(tempnode);
 			  }
