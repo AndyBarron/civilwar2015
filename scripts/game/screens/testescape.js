@@ -10,12 +10,12 @@ function(PIXI, Screen, Images, Collisions) {
 		this.adjacent = adjacent;
 		this.num = num;
 		this.touching = function(pos){
-		console.log(pos);
+		//console.log(pos);
 			if(Collisions.doRectanglesOverlap(this.sprite.getBounds(), pos, 0)){
-			console.log("TRUE FOR " + name);
+			//console.log("TRUE FOR " + name);
 				return true;
 			}
-			console.log("FALSE FOR " + name);
+			//console.log("FALSE FOR " + name);
 			return false;
 		}
 		this.toString = function(){
@@ -34,8 +34,8 @@ function(PIXI, Screen, Images, Collisions) {
 			this.sprite.gotoAndStop(3);
 		}
 		this.isAdj = function(node){
-		console.log("COMPARE: " + node);
-		console.log(adjacent);
+		//console.log("COMPARE: " + node);
+		//console.log(adjacent);
 			for(var key in adjacent){
 				if(adjacent[key].num == node){
 					return true;
@@ -97,7 +97,7 @@ function(PIXI, Screen, Images, Collisions) {
 				  tempnode.sprite.num = tempnode.num;
 				  tempnode.sprite.mousedown = function(mouseData){
 					  //console.log(self);
-					  console.log(this.num);
+					  //console.log(this.num);
 					  //self.graph[self.playernode].isAdj(this.num);
 							if(self.graph[self.playernode].isAdj(this.num) && self.moves > 0){
 							//self.playerturn = false;
@@ -126,7 +126,7 @@ function(PIXI, Screen, Images, Collisions) {
 			  }
 			  for(var adj in arrData){
 				  //alert(arrData[adj][3]);
-				  console.log(arrData[adj]);
+				  //console.log(arrData[adj]);
 				  var adjArr = arrData[adj][4].split(',');
 				  for(var adjNode in adjArr){
 					self.graph[adj].adjacent.push(self.graph[parseInt(adjArr[adjNode]) - 1]);
