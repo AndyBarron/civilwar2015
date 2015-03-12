@@ -44,6 +44,33 @@ function(PIXI, Screen, Images, Collisions) {
 			return false;
 		}
 	}
+	function enemyTurn(self){
+		var temp_adj = [];
+		//console.log("ENEMY AT " + self.enemynode);
+		self.graph[self.enemynode].adjacent.forEach(function(node){
+			temp_adj.push(node.num);
+			});
+		var new_num = Math.floor(Math.random() * temp_adj.length);
+		self.playerturn = true;
+		self.graph[self.enemynode].setinvis();
+		self.enemynode = temp_adj[new_num] - 1;
+		//console.log("ENEMY MOVING TO " + self.enemynode);
+		self.graph[self.enemynode].setenemy();
+		if(self.enemynode == self.playernode){
+			alert("You were caught!");
+			self.graph[self.playernode].setinvis();
+			resetGame(self);
+			self.changeScreen(getHubScreen());
+		}
+	}
+	
+	function resetGame(self){
+		self.playernode = 10;
+		self.enemynode = 22;
+		self.graph[self.playernode].setvis();
+		self.moves = 100;
+		self.switchtimer = 120;
+	}
 
 	var SampleMiniGame = new Screen({
 		init: function(){
@@ -58,7 +85,7 @@ function(PIXI, Screen, Images, Collisions) {
 
 				this.graph = [];
 				this.playernode = 10;
-				this.enemynode = 11;
+				this.enemynode = 22;
 				this.moves = 100;
 			  //this.graph[this.playernode].setvis();
 				arrData = [];
@@ -99,24 +126,37 @@ function(PIXI, Screen, Images, Collisions) {
 					  //console.log(self);
 					  //console.log(this.num);
 					  //self.graph[self.playernode].isAdj(this.num);
-							if(self.graph[self.playernode].isAdj(this.num) && self.moves > 0){
-							//self.playerturn = false;
-							self.graph[self.playernode].setinvis();
-							self.graph[this.num - 1].setvis();
-							self.playernode = this.num - 1;
-							self.moves = self.moves - 1;
-							//break;
-						}
-						if (self.playernode == 0 || self.playernode == 27 || self.playernode == 31 || self.playernode == 39 || self.playernode == 43 ){
-						alert("you win!");
-						self.graph[self.playernode].setescape();
-						self.playernode = 10;
-						self.graph[self.playernode].setvis();
-						self.moves = 100;
-						self.changeScreen(getHubScreen());
+					  if(self.playerturn){
+								if(self.graph[self.playernode].isAdj(this.num) && self.moves > 0){
+								self.playerturn = false;
+								self.graph[self.playernode].setinvis();
+								self.graph[this.num - 1].setvis();
+								self.playernode = this.num - 1;
+								self.moves = self.moves - 1;
+								//break;
+							}
+							if (self.playernode == 0 || self.playernode == 27 || self.playernode == 31 || self.playernode == 39 || self.playernode == 43 ){
+							alert("You won by escaping!");
+							self.graph[self.playernode].setescape();
+							resetGame(self);
+							self.changeScreen(getHubScreen());
+							}
+							if(self.moves < 1){
+								alert("You ran out of moves!");
+								self.graph[self.playernode].setinvis();
+								resetGame(self);
+								self.changeScreen(getHubScreen());
+							}
+							if(self.enemynode == self.playernode){
+								alert("You were caught!");
+								self.graph[self.playernode].setinvis();
+								resetGame(self);
+								self.changeScreen(getHubScreen());
+							}
 						}
 				  }
 				  
+				  //Adds numbers to nodes for debugging
 				  this.answerText1 = new PIXI.Text(arrData[key][0]);
 				  this.answerText1.position.x = tempnode.sprite.position.x;
 				  this.answerText1.position.y = tempnode.sprite.position.y;
@@ -148,10 +188,14 @@ function(PIXI, Screen, Images, Collisions) {
 					this.switchtimer = 120;
 					if(this.playerturn){
 						this.graph[this.enemynode].setinvis();
+						if (this.enemynode == 0 || this.enemynode == 27 || this.enemynode == 31 || this.enemynode == 39 || this.enemynode == 43 ){
+							this.graph[this.enemynode].setescape();
+						}
 						this.graph[this.playernode].setvis();
 					}else{
 						this.graph[this.playernode].setinvis();
 						this.graph[this.enemynode].setenemy();
+						enemyTurn(this);
 					}
 				}else{
 					this.switchtimer = this.switchtimer - 1;
