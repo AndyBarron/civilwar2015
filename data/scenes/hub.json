@@ -13,12 +13,11 @@
       "name": "Harriet Tubman",
       "texture": "tubman.png",
       "scale": 0.2,
-      "x": 3200,
-      "y": 3600,
+      "x": 250,
+      "y": 800,
       "dialog": [
-        "Got a lot of bundles of wood headed up this way. Are you a friend of the flying bondsmen?%Yes, I am!|What are you talking about?",
-        "Well I've got some parcel headed to the Freedom Train. Maybe you could help out sometime?|Never mind. Just an old woman rambling...",
-		"#test()|#startEscapeGame()"
+        "Hello my friend! Are you ready to go now?%Yes, I am!|Can I see what I still need?",
+		"#startEscapeGame()|#test()"
 		]
     },
 	{
@@ -26,13 +25,14 @@
       "texture": "newspaper.png",
       "scale": 0.2,
       "x": 300,
-      "y": 700,
+      "y": 600,
       "dialog": [
 	  "SEPTEMBER 1850, CONGRESS REACHES A GREAT COMPROMISE LED BY HENRY CLAY AND STEPHEN DOUGLAS",
 	  "Congress admits CALIFORNIA into the Union as a FREE STATE.",
 	  "Both the territories of UTAH and NEW MEXICO are organized now under rule of POPULAR SOVEREIGNTY.",
 	  "And a harsher FUGITIVE SLAVE ACT has been passed in Congress.",
-	  "This is already being claimed as greatest compromise since the MISSOURI COMPROMISE OF 1820."
+	  "This is already being claimed as greatest compromise since the MISSOURI COMPROMISE OF 1820.",
+	  "#newspaper()"
 		]
     },
     {
@@ -64,7 +64,9 @@
 		"Even if they were in a free state!",
 		"The only safe place now for slaves is out of the country!",
 		"Here! Take these clothes.  Hopefully you are able to get up North!",
-		"Safe travels, and remember, if anyone needs a STATIONMASTER, me and my husband are here to serve!"
+		"Safe travels, and remember, if anyone needs a STATIONMASTER, me and my husband are here to serve!",
+		"#clothes()"
+
       ]
     },
 	{
@@ -77,7 +79,8 @@
 	  "There's been word that a UNDERGROUND RAILROAD STATIONMASTER was caught just a few miles left of here.",
 	  "Serves him right for trying to shuffle slaves up North.",
 	  "Or was it a woman? Either way, shame on him!",
-	  "...Or her!"
+	  "...Or her!",
+	  "#gossip1()"
       ]
     },
     {
@@ -105,7 +108,9 @@
 		"You see? Not all Southerners are slaveholders.|#END",
 		"Make sure you have this map.  It will help you plan your route.",
 		"Also, talk to my wife! She can get you clothes.",
-		"She is very cautious though, so make sure you answer her questions right!"
+		"She is very cautious though, so make sure you answer her questions right!",
+		"#map()"
+
       ]
     },
     {
@@ -144,7 +149,8 @@
       "dialog": [
 	  "Can I do something for you, sir?%Are you looking to get on the RAILROAD?|Nope.",
 	  "Are you a CONDUCTOR? Oh thank the Lord!|Okay then...",
-	  "Ever since the FUGITIVE SLAVE ACT was passed, I thought I would never be able to safely get up North.|#END"
+	  "Ever since the FUGITIVE SLAVE ACT was passed, I thought I would never be able to safely get up North.|#END",
+	  "#paper1()"
 		]
     },
 	{
@@ -155,7 +161,8 @@
       "y": 1400,
       "dialog": [
 	  "Are you the CONDUCTOR?%Yes I am!|No",
-	  "Excellent! I am ready to go whenever!|Oh...forget I said anything."
+	  "Excellent! I am ready to go whenever!|Oh...forget I said anything.",
+	  "#paper2()|#END"
 		]
     },
 	{
@@ -165,7 +172,8 @@
       "x": 2000,
       "y": 1200,
       "dialog": [
-	  "I'm ready to get on the RAILROAD whenever you are, sir!"
+	  "I'm ready to get on the RAILROAD whenever you are, sir!",
+	  "#paper3()"
 		]
     },
 	{
@@ -175,7 +183,8 @@
       "x": 800,
       "y": 1400,
       "dialog": [
-	  "I'm ready to go whenever HARRIET TUBMAN is, sir!"
+	  "I'm ready to go whenever HARRIET TUBMAN is, sir!",
+	  "#paper4()"
 		]
     },
 	{
@@ -186,7 +195,8 @@
       "y": 1800,
       "dialog": [
 	  "I heard you are shuffling slaves up North...%Indeed, I am|Who me?",
-	  "Excellent. I have my stuff packed! Just give me the word when we're leaving.|Oh, my mistake then sir."
+	  "Excellent. I have my stuff packed! Just give me the word when we're leaving.|Oh, my mistake then sir.",
+	  "#paper5()|#END"
 		]
     },
 	{
@@ -211,7 +221,8 @@
       "y": 2400,
       "dialog": [
 	  "I hear you're helping my friends on the UNDERGROUND RAILROAD",
-	  "They'll need food if they're going to survive...Take this!"
+	  "They'll need food if they're going to survive...Take this!",
+	  "#food1()"
 		]
     },
 	{
@@ -222,7 +233,8 @@
       "y": 2000,
       "dialog": [
 	  "Although the STATIONMASTERS on the UNDERGROUND RAILROAD will have food, it's better to be safe than sorry.",
-	  "Please, take this with you!"
+	  "Please, take this with you!",
+	  "#food2()"
 		]
     },
 	{
@@ -254,7 +266,7 @@
       "name": "Male Slave",
       "texture": "harriet.png",
       "scale": 1.0,
-      "x": 3800,
+      "x": 3400,
       "y": 3200,
       "dialog": [
 	  "If I was half as brave as HARRIET TUBMAN, I'd be a CONDUCTOR too!"
@@ -268,7 +280,8 @@
       "y": 2000,
       "dialog": [
 	  "You're doing a wonderful thing for my friends, sir!",
-	  "Please take this on your journey."
+	  "Please take this on your journey.",
+	  "#food3()"
 		]
     },
 	{
@@ -276,11 +289,12 @@
       "texture": "harriet.png",
       "scale": 1.0,
       "x": 2400,
-      "y": 2800,
+      "y": 2200,
       "dialog": [
 	  "I hear you are trying to shuffle some of my friends out of here.",
 	  "If I were you, don't go to the town directly north of here.",
-	  "The STATIONMASTER had to move away so there's no place to rest."
+	  "The STATIONMASTER had to move away so there's no place to rest.",
+	  "#gossip2()"
 		]
     },
 	{
@@ -354,7 +368,8 @@
       "x": 1000,
       "y": 650,
       "dialog": [
-	  "AHA! The canteen is under here!"
+	  "AHA! The canteen is under here!",
+	  "#tree()"
 	]
 	
     },

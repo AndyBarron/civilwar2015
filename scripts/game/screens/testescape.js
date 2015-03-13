@@ -134,7 +134,7 @@ function(PIXI, Screen, Images, Collisions) {
 				arrData = [];
 					/*$.ajax({
 						type: "GET",
-						url: "../../../data/escapegame.csv",
+						url: "./../../../data/escapegame.csv",
 						dataType: "text",
 						success: function(data) {readNodes(data);}
 					 });*/
