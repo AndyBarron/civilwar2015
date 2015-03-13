@@ -154,42 +154,42 @@ define(
 			self.graphics.lineStyle(5, 0x000000);
 
 			// draw a rectangle
-			self.graphics.drawRect(100, 100, 600, 400);
+			self.graphics.drawRect(100, 25, 600, 400);
 
 			self.stage.addChild(self.graphics);
 			
 			self.otherText = new PIXI.Text("Welcome to A Nation Divided!",{font:"40px Arial "});
-			self.otherText.position.x = 125;
-			self.otherText.position.y = 125;
+			self.otherText.position.x = 130;
+			self.otherText.position.y = 50;
 			self.stage.addChild(self.otherText);
 			
-			self.otherText3 = new PIXI.Text("The year is 1863 and you have just arrived in a new town.",{font:"20px Arial "});
-			self.otherText3.position.x =  125;
-			self.otherText3.position.y = 225;
+			self.otherText3 = new PIXI.Text("The Year is 1850 and you have arrived on a Southern Plantation.",{font:"20px Arial "});
+			self.otherText3.position.x =  120;
+			self.otherText3.position.y = 150;
 			self.stage.addChild(self.otherText3);
 			
-			self.otherText4 = new PIXI.Text("Everyone here has been affected by the War in some way and has a unique story to tell.",{font:"16px Arial "});
-			self.otherText4.position.x = 105;
-			self.otherText4.position.y = 300;
+			self.otherText4 = new PIXI.Text("You are working with HARRIET TUBMAN as an UNDERGROUND RAILROAD CONDUCTOR.",{font:"14px Arial "});
+			self.otherText4.position.x = 110;
+			self.otherText4.position.y = 230;
 			self.stage.addChild(self.otherText4);
 			
-			self.otherText6 = new PIXI.Text("Interact with the town members and see if you too can experience this war first hand.",{font:"16px Arial "});
-			self.otherText6.position.x = 105;
-			self.otherText6.position.y = 325;
+			self.otherText6 = new PIXI.Text("Interact with people and gather all the information and supplies you need to escape!",{font:"16px Arial "});
+			self.otherText6.position.x = 115;
+			self.otherText6.position.y = 280;
 			self.stage.addChild(self.otherText6);
 
 			
-			self.otherText5 = new PIXI.Text("Move with WASD or the arrows and press space to talk.",{font:"16px Arial "});
-			self.otherText5.position.x = 150;
-			self.otherText5.position.y = 400;
+			self.otherText5 = new PIXI.Text("Move with WASD or the arrows and press space to talk. Press C for Checklist!",{font:"16px Arial "});
+			self.otherText5.position.x = 120;
+			self.otherText5.position.y = 300;
 			self.stage.addChild(self.otherText5);
 
 
 
 			
 			self.otherText2 = new PIXI.Text("Press Space to Start!",{font:"40px Arial "});
-			self.otherText2.position.x = 150;
-			self.otherText2.position.y = 450;
+			self.otherText2.position.x = 200;
+			self.otherText2.position.y = 360;
 			self.stage.addChild(self.otherText2);
 
             self.player = player;
