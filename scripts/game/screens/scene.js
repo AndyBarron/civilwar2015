@@ -9,7 +9,7 @@ define(
     'use strict';
 	
     return function(url) {
-	
+	var dialogueCounter = 0;
 
       function startDialog(npc) {
 		//stage.addChild(graphics);
@@ -66,7 +66,10 @@ define(
           } else {
             console.error("DIALOG ERROR: no method named " + methodName);
           }
+		  if(dialogueCounter < 1){
+			  dialogueCounter = 60;
           self.advanceDialog();
+		  }
         } else {
           // if it's just regular text
           self.dialogBox.setText(txt);
@@ -250,7 +253,10 @@ define(
             var clickFunction = function() {
               var rText = this.text;
               self.lastRespIdx = this.idx;
+			  if(dialogueCounter < 1){
+			  dialogueCounter = 60;
               self.advanceDialog(this.idx);
+			  }
             }
             resp1.interactive = resp2.interactive = true;
             resp1.buttonMode = resp2.buttonMode = true;
@@ -303,7 +309,9 @@ define(
           var self = this;
           if (!self.loaded) return;
           var player = self.player;
-		  
+		  if(dialogueCounter > 0){
+			dialogueCounter = dialogueCounter - 1;
+		  }
 		  
 		  if(this.staging==1)
 		  {
@@ -473,7 +481,10 @@ define(
 
             }
           } else if (interacted && self.speaker) {
+		  			  if(dialogueCounter < 1){
+			  dialogueCounter = 60;
             self.advanceDialog();
+			}
           }
         },
       });
