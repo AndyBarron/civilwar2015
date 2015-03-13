@@ -334,7 +334,1976 @@
       "x": 800,
       "y": 750,
       "dialog": [
-	  "AHA! The canteen is under here!"
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 300,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 200,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 400,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 500,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 600,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 700,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 800,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 900,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1000,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1100,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1200,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1300,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1400,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1500,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1600,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1700,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1800,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1900,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2000,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2100,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2200,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2300,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2400,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2600,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2700,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2800,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2900,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3000,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3100,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3200,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3300,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3400,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3500,
+      "y": 1100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 300,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 200,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 400,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 500,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 600,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 700,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 800,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 900,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1000,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1300,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1200,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1300,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1400,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1500,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1600,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1700,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1800,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1900,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2000,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2100,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2200,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2300,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2400,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2600,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2700,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2800,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2900,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3000,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3100,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3200,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3300,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3400,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3500,
+      "y": 1300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 300,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 200,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 400,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 500,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 600,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 700,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 800,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 900,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1000,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1500,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1200,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1300,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1400,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1500,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1600,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1700,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1800,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1900,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2000,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2100,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2200,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2300,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2400,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2600,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2700,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2800,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2900,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3000,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3100,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3200,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3300,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3400,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3500,
+      "y": 1500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 300,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 200,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 400,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 500,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 600,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 700,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 800,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 900,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1000,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1900,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1200,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1300,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1400,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1900,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1600,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1900,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1800,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1900,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2000,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2100,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2200,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2300,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2400,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2600,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2700,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2800,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2900,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3000,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3100,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3200,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3300,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3400,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3500,
+      "y": 1900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 300,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 200,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 400,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 500,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 600,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 700,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 800,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 900,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1000,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2100,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1200,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1300,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1400,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2100,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1600,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2100,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1800,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 1900,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2000,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2100,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2200,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2300,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2400,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2600,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2700,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2800,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2900,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3000,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3100,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3200,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3300,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3400,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3500,
+      "y": 2100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2800,
+      "y": 2300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2900,
+      "y": 2500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3000,
+      "y": 2300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3100,
+      "y": 2500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3200,
+      "y": 2300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3300,
+      "y": 2500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3400,
+      "y": 2300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3500,
+      "y": 2500,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3600,
+      "y": 2300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2800,
+      "y": 2700,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2900,
+      "y": 2900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3000,
+      "y": 2700,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3100,
+      "y": 2900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3200,
+      "y": 2700,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3300,
+      "y": 2900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3400,
+      "y": 2700,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3500,
+      "y": 2900,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3600,
+      "y": 2700,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2800,
+      "y": 3300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 2900,
+      "y": 3100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3000,
+      "y": 3300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3100,
+      "y": 3100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3200,
+      "y": 3300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3300,
+      "y": 3100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3400,
+      "y": 3300,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3500,
+      "y": 3100,
+      "dialog": [
+	]
+	
+    },
+	{
+      "name": "",
+      "texture": "cotton.png",
+      "scale": 1,
+      "x": 3600,
+      "y": 3300,
+      "dialog": [
 	]
 	
     },
@@ -982,7 +2951,7 @@
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": -100,
+      "x": 2700,
       "y": 2600,
       "dialog": [
 	]
@@ -992,7 +2961,7 @@
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": -100,
+      "x": 2700,
       "y": 2700,
       "dialog": [
 	]
@@ -1002,7 +2971,7 @@
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": -100,
+      "x": 2700,
       "y": 2800,
       "dialog": [
 	]
@@ -1012,7 +2981,7 @@
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": -100,
+      "x": 2700,
       "y": 2900,
       "dialog": [
 	]
@@ -1022,7 +2991,7 @@
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": -100,
+      "x": 2700,
       "y": 3000,
       "dialog": [
 	]
@@ -1032,7 +3001,7 @@
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": -100,
+      "x": 2700,
       "y": 3100,
       "dialog": [
 	]
@@ -1042,7 +3011,7 @@
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": -100,
+      "x": 2700,
       "y": 3200,
       "dialog": [
 	]
@@ -1052,7 +3021,7 @@
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": -100,
+      "x": 2700,
       "y": 3300,
       "dialog": [
 	]
@@ -1062,7 +3031,7 @@
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": -100,
+      "x": 2700,
       "y": 3400,
       "dialog": [
 	]
@@ -1072,7 +3041,7 @@
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": -100,
+      "x": 2700,
       "y": 3500,
       "dialog": [
 	]
@@ -1082,7 +3051,7 @@
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": -100,
+      "x": 2700,
       "y": 3600,
       "dialog": [
 	]
@@ -1092,7 +3061,7 @@
       "name": "End of Left Side",
       "texture": "tree.png",
       "scale": 1,
-      "x": -100,
+      "x": 2700,
       "y": 3700,
       "dialog": [
 	]
@@ -1103,7 +3072,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": -100,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1113,7 +3082,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 0,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1123,7 +3092,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 100,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1133,7 +3102,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 200,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1143,7 +3112,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 300,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1153,7 +3122,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 400,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1163,7 +3132,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 500,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1173,7 +3142,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 600,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1183,7 +3152,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 700,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1193,7 +3162,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 800,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1203,7 +3172,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 900,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1213,7 +3182,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1000,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1223,7 +3192,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1100,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1233,7 +3202,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1200,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1243,7 +3212,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1300,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1253,7 +3222,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1400,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1263,7 +3232,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1500,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1273,7 +3242,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1600,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1283,7 +3252,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1700,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1293,7 +3262,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1800,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1303,7 +3272,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1900,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1313,7 +3282,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 2000,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1323,7 +3292,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 2100,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1333,7 +3302,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 2200,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1343,7 +3312,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 2300,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1353,7 +3322,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 2400,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1363,7 +3332,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 2500,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1373,7 +3342,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 2600,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1383,7 +3352,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 2700,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1393,7 +3362,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 2800,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1403,7 +3372,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 2900,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1413,7 +3382,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 3000,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1423,7 +3392,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 3100,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1433,7 +3402,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 3200,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1443,7 +3412,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 3300,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1453,7 +3422,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 3400,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1463,7 +3432,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 3500,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1473,7 +3442,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 3600,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1483,7 +3452,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 3700,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1493,7 +3462,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 3800,
-      "y": -100,
+      "y": 500,
       "dialog": [
 	]
 	
@@ -1513,7 +3482,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": -100,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1523,7 +3492,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 0,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1533,7 +3502,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 100,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1543,7 +3512,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 200,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1553,7 +3522,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 300,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1563,7 +3532,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 400,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1573,7 +3542,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 500,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1583,7 +3552,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 600,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1593,7 +3562,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 700,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1603,7 +3572,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 800,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1613,7 +3582,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 900,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1623,7 +3592,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1000,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1633,7 +3602,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1100,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1643,7 +3612,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1200,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1653,7 +3622,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1300,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1663,7 +3632,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1400,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1673,7 +3642,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1500,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1683,7 +3652,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1600,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1693,7 +3662,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1700,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1703,7 +3672,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1800,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1713,7 +3682,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 1900,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1723,7 +3692,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 2000,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1733,7 +3702,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 2100,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1743,7 +3712,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 2200,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1753,7 +3722,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 2300,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1763,7 +3732,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 2400,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1773,7 +3742,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 2500,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1783,7 +3752,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 2600,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
@@ -1793,7 +3762,7 @@
       "texture": "tree.png",
       "scale": 1,
       "x": 2700,
-      "y": 3800,
+      "y": 2500,
       "dialog": [
 	]
 	
