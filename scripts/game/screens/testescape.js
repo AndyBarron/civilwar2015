@@ -196,7 +196,7 @@ function(PIXI, Screen, Images, Collisions) {
 					
 					//console.log(nodeLines[1]);
 					nodeLines.forEach(function(line){
-					//console.log(line);
+					console.log(line);
 						var pieces = eval(line);
 						//console.log(pieces);
 						arrData.push(pieces);
