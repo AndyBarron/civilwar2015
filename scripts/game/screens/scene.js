@@ -5,6 +5,7 @@ define(
   'engine/geometry', 'engine/helpers', 'engine/arrays', 'game/constants'],
   function(PIXI, Screen, graphics, input,
       geometry, helpers, arrays, constants) {
+	var counter = 0;
     'use strict';
 	
     return function(url) {
@@ -24,7 +25,11 @@ define(
 	  
 	  
       function advanceDialog(respIdx) {
+		if(counter > 60){
+		counter = 0;
         var self = this;
+		sleep();
+		sheep();
         if (self.responses.visible && !respIdx) return;
         self.line ++;
         if (self.line >= self.speaker.dialog.length) {
@@ -68,6 +73,7 @@ define(
           self.dialog.visible = true;
         }
       }
+	  }
       function endDialog() {
         var self = this;
         self.dialog.visible = false;
@@ -77,6 +83,14 @@ define(
 	  function testTwo() {
 	  
 	  console.log("OH Baby!");
+	  }
+	  function sleep() {
+	  setTimeout(sheep,1000);
+
+	  }
+	  function sheep() {
+	  console.alert("Pooooooop");
+
 	  }
       return new Screen({
         // Screen overrides
@@ -285,6 +299,7 @@ define(
           // console.log(self.player);
         },
         update: function(delta) {
+		  counter++;
           var self = this;
           if (!self.loaded) return;
           var player = self.player;
