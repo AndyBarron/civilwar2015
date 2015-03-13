@@ -132,19 +132,71 @@ function(PIXI, Screen, Images, Collisions) {
 				this.stage.addChild(this.turntext);					
 			  //this.graph[this.playernode].setvis();
 				arrData = [];
-					$.ajax({
+					/*$.ajax({
 						type: "GET",
 						url: "../../../data/escapegame.csv",
 						dataType: "text",
 						success: function(data) {readNodes(data);}
-					 });
+					 });*/
 				//var arrData = [];
 				self = this;
+				readNodes("data goes here");
 				function readNodes(data){
 				//console.log(arrData);
-					nodeLines = data.split("\n");
+					//nodeLines = data.split("\n");
+					
+					
+					//We're back to this ugliness because evidently javascript isn't a fan of loading CSVs
+					nodeLines = [[1,"San Antonio, Texas",50,475,"2,3",2],
+[2,"Austin, Texas",70,425,"1,4",0],
+[3,"Houston, Texas",100,445,"1,4",0],
+[4,"Alexandria, Lousiana",150,410,"2,3,5,7",0],
+[5,"Baton Rouge, Lousiana",200,430,"4,6,7,11",0],
+[6,"New Orleans, Lousiana",210,455,"5",2],
+[7,"Jackson, Mississippi",205,375,"4,5,8,10",0],
+[8,"Little Rock, Arkansas",185,320,"7,9,15,16",1],
+[9,"Birmingham, Alabama",270,345,"8,10,16,17",1],
+[10,"Montgomery, Alabama",270,375,"7,9,11,17",0],
+[11,"Tallahassee, Florida",275,420,"5,10,12",0],
+[12,"St. Augustine, Florida",365,430,"11,13,18",0],
+[13,"Lakeland, Florida",375,475,"12,14",0],
+[14,"Everglades, Flordia",400,515,"13",2],
+[15,"Springfield, Missouri",175,270,"8,19",0],
+[16,"Nashville, Tennessee",260,300,"8,9,20",0],
+[17,"Atlanta, Georgia",310,360,"9,10,18,22",0],
+[18,"Savannah, Georgia",365,375,"12,17,23",0],
+[19,"Saint Louis, Missouri",185,260,"15,27,30",0],
+[20,"Louisiville, Kentucky",270,265,"16,21,34",0],
+[21,"Roanoke, Virginia",355,275,"20,22,24,35,36",1],
+[22,"Columbia, South Carolina",360,335,"17,21,23",0],
+[23,"Charleston, South Carolina",395,345,"18,22,25,43",4],
+[24,"Raleigh, North Carolina",405,295,"21,25,36",0],
+[25,"Jacksonville, North Carolina",430,310,"23,24",0],
+[26,"Des Moines, Iowa",155,185,"27,28",0],
+[27,"Springfield, Illinois",205,220,"19,26,29",0],
+[28,"Madison, Wisconsin",205,140,"26,29",2],
+[29,"Chicago, Illinois",225,190,"27,28,30",0],
+[30,"Indianapolis, Indiana",250,235,"19,29,34",0],
+[31,"Cincinnati, Ohio",310,195,"32,33,37",0],
+[32,"Detroit, Michigan",270,155,"31",2],
+[33,"Columbus, Ohio",305,220,"31,35,34",0],
+[34,"Cleveland, Ohio",295,240,"30,20,33,35",0],
+[35,"Charleston, West Virginia",355,230,"33,34,37,21",0],
+[36,"Richmond, Virginia",405,248,"21,24,38",0],
+[37,"Pittsburgh, Pennysylvania",370,190,"31,35,39,38",0],
+[38,"Annapolis, Marland",420,215,"36,37,39",0],
+[39,"Philadelphia, Pennysylvania",430,195,"37,38,42,40",0],
+[40,"Rochester, New York",435,140,"39,43,44,41",0],
+[41,"Albany, New York",385,135,"40",2],
+[42,"New York, New York",450,175,"39,43",0],
+[43,"Boston, Massachusetts",485,130,"40,42,23,44",0],
+[44,"Montpelier, Vermont",460,90,"40,43",2]];
+					
+					
+					
 					//console.log(nodeLines[1]);
 					nodeLines.forEach(function(line){
+					console.log(line);
 						var pieces = eval(line);
 						//console.log(pieces);
 						arrData.push(pieces);
