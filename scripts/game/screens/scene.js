@@ -28,6 +28,7 @@ define(
 		if(counter > 60){
 		counter = 0;
         var self = this;
+
 		sleep();
 		sheep();
         if (self.responses.visible && !respIdx) return;
@@ -441,6 +442,10 @@ define(
 		  
 		  
           var interacted = arrays.containsElement(constants.KEYS_INTERACT, keyCode);
+		  
+		  if(keyCode==67){
+		  self.test();
+		  }
 		  
 		  if(this.staging==0 && interacted){
 		  
