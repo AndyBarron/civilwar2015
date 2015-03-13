@@ -18,7 +18,7 @@ define(
 	hubScene.music.play();
     hubScene.startEscapeGame = function() { 
 	
-	if(overallcount > 1){
+	if(overallcount > 13){
 		
 		this.changeScreen(EscapeScreen);
 	  }

@@ -76,7 +76,7 @@
       "x": 2000,
       "y": 600,
       "dialog": [
-	  "There's been word that a UNDERGROUND RAILROAD STATIONMASTER was caught just a few miles left of here.",
+	  "There's been word that a UNDERGROUND RAILROAD STATIONMASTER was caught just a few miles west of here.",
 	  "Serves him right for trying to shuffle slaves up North.",
 	  "Or was it a woman? Either way, shame on him!",
 	  "...Or her!",
@@ -222,6 +222,8 @@
       "dialog": [
 	  "I hear you're helping my friends on the UNDERGROUND RAILROAD",
 	  "They'll need food if they're going to survive...Take this!",
+	  "Say hi to FREDERICK DOUGLASS for me if you see him.",
+	  "That man is an inspirational speaker.",
 	  "#food1()"
 		]
     },
