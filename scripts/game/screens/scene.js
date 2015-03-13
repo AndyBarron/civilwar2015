@@ -135,8 +135,8 @@ define(
             var player = new PIXI.MovieClip(pTextures);
             player.anchor.x = 0.5;
             player.anchor.y = 0.5;
-            player.position.x = pData.x || 1400 / 2;
-            player.position.y = pData.y || 1400 / 2;
+            player.position.x = pData.x || 300 / 2;
+            player.position.y = pData.y || 1500 / 2;
 			player.moved = false;
 			player.stepTimer = 29;
 			player.stepDir = 0;
