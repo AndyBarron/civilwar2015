@@ -142,7 +142,7 @@
     },
 	{
       "name": "Female Slave",
-      "texture": "harriet.png",
+      "texture": "slave1.png",
       "scale": 1.0,
       "x": 1000,
       "y": 1200,
@@ -155,7 +155,7 @@
     },
 	{
       "name": "Female Slave",
-      "texture": "harriet.png",
+      "texture": "slave2.png",
       "scale": 1.0,
       "x": 1400,
       "y": 1400,
@@ -167,7 +167,7 @@
     },
 	{
       "name": "Female Slave",
-      "texture": "harriet.png",
+      "texture": "slave3.png",
       "scale": 1.0,
       "x": 2000,
       "y": 1200,
@@ -178,7 +178,7 @@
     },
 	{
       "name": "Male Slave",
-      "texture": "harriet.png",
+      "texture": "slave4.png",
       "scale": 1.0,
       "x": 800,
       "y": 1400,
@@ -189,7 +189,7 @@
     },
 	{
       "name": "Male Slave",
-      "texture": "harriet.png",
+      "texture": "slave5.png",
       "scale": 1.0,
       "x": 2400,
       "y": 1800,
@@ -201,7 +201,7 @@
     },
 	{
       "name": "Male Slave",
-      "texture": "harriet.png",
+      "texture": "slave6.png",
       "scale": 1.0,
       "x": 500,
       "y": 2000,
@@ -215,7 +215,7 @@
     },
 	{
       "name": "Male Slave",
-      "texture": "harriet.png",
+      "texture": "slave7.png",
       "scale": 1.0,
       "x": 350,
       "y": 2400,
@@ -227,7 +227,7 @@
     },
 	{
       "name": "Male Slave",
-      "texture": "harriet.png",
+      "texture": "slave8.png",
       "scale": 1.0,
       "x": 3000,
       "y": 2000,
@@ -239,7 +239,7 @@
     },
 	{
       "name": "Male Slave",
-      "texture": "harriet.png",
+      "texture": "slave9.png",
       "scale": 1.0,
       "x": 3400,
       "y": 1000,
@@ -253,7 +253,7 @@
     },
 	{
       "name": "Male Slave",
-      "texture": "harriet.png",
+      "texture": "slave1.png",
       "scale": 1.0,
       "x": 3200,
       "y": 1600,
@@ -264,7 +264,7 @@
     },
 	{
       "name": "Male Slave",
-      "texture": "harriet.png",
+      "texture": "slave2.png",
       "scale": 1.0,
       "x": 3400,
       "y": 3200,
@@ -274,7 +274,7 @@
     },
 	{
       "name": "Female Slave",
-      "texture": "harriet.png",
+      "texture": "slave3.png",
       "scale": 1.0,
       "x": 2600,
       "y": 2000,
@@ -286,7 +286,7 @@
     },
 	{
       "name": "Female Slave",
-      "texture": "harriet.png",
+      "texture": "slave4.png",
       "scale": 1.0,
       "x": 2400,
       "y": 2200,
@@ -299,7 +299,7 @@
     },
 	{
       "name": "Female Slave",
-      "texture": "harriet.png",
+      "texture": "slave5.png",
       "scale": 1.0,
       "x": 1000,
       "y": 2400,
@@ -310,7 +310,7 @@
     },
 	{
       "name": "Female Slave",
-      "texture": "harriet.png",
+      "texture": "slave6.png",
       "scale": 1.0,
       "x": 2000,
       "y": 1600,
@@ -320,7 +320,7 @@
     },
 	{
       "name": "Female Slave",
-      "texture": "harriet.png",
+      "texture": "slave7.png",
       "scale": 1.0,
       "x": 600,
       "y": 2000,
