@@ -443,6 +443,10 @@ define(
 		  
           var interacted = arrays.containsElement(constants.KEYS_INTERACT, keyCode);
 		  
+		  if(keyCode==27){
+		  self.changeScreen(require('game/screens/testescape'));
+		  }
+		  
 		  if(keyCode==67){
 		  self.test();
 		  }
