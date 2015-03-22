@@ -12,7 +12,7 @@ define(
 	var canteencount = 0;
 	var clothescount = 0;
 	var newspapercount = 0;
-    var hubScene = scene('data/scenes/hub.json');
+    var hubScene = scene('data/scenes/hub.json?blah=blahblah');
 	hubScene.music = new Audio('./assets/music/town_music.ogg');
 	hubScene.music.loop = true;
 	hubScene.music.play();

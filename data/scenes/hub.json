@@ -90,8 +90,8 @@
       "x": 1200,
       "y": 900,
       "dialog": [
-	  "I'm reading this book by HARRIET BEECHER STOWE.  Have you heard of it?%Yes!|B.What book?|You can read?",
-	  "Oh, so you've read it too?|It's this book called UNCLE TOM'S CABIN.",
+	  "I'm reading this book by HARRIET BEECHER STOWE.  Have you heard of it?%Yes!|What book?|What's it called??",
+	  "Oh, so you've read it too?|It's this book called UNCLE TOM'S CABIN.|It's called UNCLE TOM'S CABIN.",
 	  "Apparently a lot of folks love this up North.",
 	  "I'm no ABOLITIONIST, but I can't help to feel put off by some of the things in here..."
       ]

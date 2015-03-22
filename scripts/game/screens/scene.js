@@ -41,10 +41,17 @@ define(
         var split = lineText.split('%');
         if (split.length > 1) {
           var splitResp = split[1].split('|');
-		  console.log(splitResp.length);
+		  //console.log(splitResp.length);
 		  for(var i = 0; i < splitResp.length; i++){
-		  console.log(splitResp[i]);
+		  //console.log(splitResp[i]);
 			self.resps[i].setText(splitResp[i]);
+			if(i > 0){
+				self.resps[i].position.x = self.resps[i - 1].position.x + self.resps[i - 1].width + 30;
+			}
+			//self.resps[i].position.x = self.dialogMarginH + i * (constants.STAGE_W)/(splitResp.length);
+		  }
+		  for(var i = splitResp.length; i < self.resps.length; i++){
+			self.resps[i].setText("");
 		  }
           //self.resp1.setText(splitResp[0]);
           //self.resp2.setText(splitResp[1]);
