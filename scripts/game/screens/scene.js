@@ -41,8 +41,13 @@ define(
         var split = lineText.split('%');
         if (split.length > 1) {
           var splitResp = split[1].split('|');
-          self.resp1.setText(splitResp[0]);
-          self.resp2.setText(splitResp[1]);
+		  console.log(splitResp.length);
+		  for(var i = 0; i < splitResp.length; i++){
+		  console.log(splitResp[i]);
+			self.resps[i].setText(splitResp[i]);
+		  }
+          //self.resp1.setText(splitResp[0]);
+          //self.resp2.setText(splitResp[1]);
           self.responses.visible = true;
         } else {
           self.responses.visible = false;
@@ -231,38 +236,48 @@ define(
             var dialogMarginH = 20;
             var dialogMarginV = 20;
             var dialogMessageH = 100;
-            var resp1 = new PIXI.Text('Yes!', {
+			var resps = [];
+			var num_resps = 3;
+			for(var i = 0; i < num_resps; i++){
+            var temp_resp = new PIXI.Text('', {
               fill: '#CCCCFF',
               dropShadow: true,
             });
-            var resp2 = new PIXI.Text('No...', {
-              fill: '#FFCCCC',
-              dropShadow: true,
-            });
-            var nameBox = new PIXI.Text('Name', {
-              fill: '#88EEDD',
-              dropShadow: true,
-            });
-            resp1.anchor.y = resp2.anchor.y = 1.0;
-            resp2.anchor.x = 1.0;
-            resp1.position.y = resp2.position.y = constants.STAGE_H - dialogMarginV;
-            resp1.position.x = dialogMarginH;
-            resp2.position.x = constants.STAGE_W - dialogMarginH;
-            var clickFunction = function() {
+			temp_resp.anchor.y = 1.0;
+			temp_resp.position.y = constants.STAGE_H - dialogMarginV;
+			temp_resp.position.x = dialogMarginH + i * (constants.STAGE_W)/(num_resps);
+			console.log(temp_resp.position.x);
+			temp_resp.interactive = true;
+			temp_resp.buttonMode = true;
+			var clickFunction = function() {
               var rText = this.text;
               self.lastRespIdx = this.idx;
               self.advanceDialog(this.idx);
             }
-            resp1.interactive = resp2.interactive = true;
-            resp1.buttonMode = resp2.buttonMode = true;
-            resp1.click = clickFunction;
-            resp2.click = clickFunction;
-            resp1.idx = 1;
-            resp2.idx = 2;
-            responses.addChild(resp1);
-            responses.addChild(resp2);
+			temp_resp.click = clickFunction;
+			temp_resp.idx = i+1;
+			responses.addChild(temp_resp);
+			resps.push(temp_resp);
+			}
+            var nameBox = new PIXI.Text('Name', {
+              fill: '#88EEDD',
+              dropShadow: true,
+            });
+            //resp1.anchor.y = resp2.anchor.y = 1.0;
+            //resp2.anchor.x = 1.0;POSSIBLY IMPORTANT
+            //resp1.position.y = resp2.position.y = constants.STAGE_H - dialogMarginV;
+            //resp1.position.x = dialogMarginH;
+            //resp2.position.x = constants.STAGE_W - dialogMarginH;
+            //resp1.interactive = resp2.interactive = true;
+            //resp1.buttonMode = resp2.buttonMode = true;
+            //resp1.click = clickFunction;
+            //resp2.click = clickFunction;
+            //resp1.idx = 1;
+            //resp2.idx = 2;
+            //responses.addChild(resp1);
+            //responses.addChild(resp2);
             var dialogBaseY = constants.STAGE_H - dialogMarginV -
-                dialogMessageH - resp1.height;
+                dialogMessageH - resps[0].height;
             nameBox.anchor.y = 1.0;
             nameBox.position.x = dialogMarginH;
             nameBox.position.y = dialogBaseY;
@@ -284,8 +299,9 @@ define(
             dialog.visible = false;
             responses.visible = false;
             self.dialog = dialog;
-            self.resp1 = resp1;
-            self.resp2 = resp2;
+            //self.resp1 = resp1;
+            //self.resp2 = resp2;
+			self.resps = resps;
             self.responses = responses;
             self.nameBox = nameBox;
             self.dialogBox = textBox;
