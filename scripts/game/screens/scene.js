@@ -190,18 +190,18 @@ define(
 			self.otherText.position.y = 50;
 			self.stage.addChild(self.otherText);
 			
-			self.otherText3 = new PIXI.Text("The Year is 1850 and you have arrived on a Southern Plantation.",{font:"20px Arial "});
+			self.otherText3 = new PIXI.Text("The Year is 1860 and you have arrived on a Virginia Plantation.",{font:"20px Arial "});
 			self.otherText3.position.x =  120;
 			self.otherText3.position.y = 150;
 			self.stage.addChild(self.otherText3);
 			
-			self.otherText4 = new PIXI.Text("You are working with HARRIET TUBMAN as an UNDERGROUND RAILROAD CONDUCTOR.",{font:"14px Arial "});
+			self.otherText4 = new PIXI.Text("You are delivering the news that ABRAHAM LINCOLN has just been elected President.",{font:"14px Arial "});
 			self.otherText4.position.x = 110;
 			self.otherText4.position.y = 230;
 			self.stage.addChild(self.otherText4);
 			
-			self.otherText6 = new PIXI.Text("Interact with people and gather all the information and supplies you need to escape!",{font:"16px Arial "});
-			self.otherText6.position.x = 115;
+			self.otherText6 = new PIXI.Text("Deliver the correct newspaper to each person based on their political views!",{font:"16px Arial "});
+			self.otherText6.position.x = 120;
 			self.otherText6.position.y = 280;
 			self.stage.addChild(self.otherText6);
 
