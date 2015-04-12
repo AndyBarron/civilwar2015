@@ -2,14 +2,13 @@
 define(
 
   ['pixi', 'engine/classes/Screen', 'engine/graphics', 'engine/input',
-  'engine/geometry', 'engine/helpers', 'engine/arrays', 'game/constants'],
+  'engine/geometry', 'engine/helpers', 'engine/arrays', 'game/constants', 'game/screens/testpause'],
   function(PIXI, Screen, graphics, input,
       geometry, helpers, arrays, constants) {
 	var counter = 0;
     'use strict';
 	
     return function(url) {
-	
 
       function startDialog(npc) {
 		//stage.addChild(graphics);
@@ -466,12 +465,13 @@ define(
 		  
           var interacted = arrays.containsElement(constants.KEYS_INTERACT, keyCode);
 		  
-		  if(keyCode==27){
+		  /*if(keyCode==27){
 		  self.changeScreen(require('game/screens/testescape'));
-		  }
+		  }*/
 		  
 		  if(keyCode==67){
-		  self.test();
+		  //self.test();
+		  self.changeScreen(require('game/screens/testpause'));
 		  }
 		  
 		  if(this.staging==0 && interacted){

@@ -314,12 +314,9 @@ alert("You heard about what happened to the stationmaster.  This should help you
 };
 
 hubScene.test = function() {
-	
 
 alert("Checklist for Escape!\nPassengers: " + papercount + "/5\nFood: " + count + "/3\nMap:" + mapcount + "/1\nClothes: " + clothescount + "/1\nCanteen: " + canteencount + "/1\nGossip: " + gossipcount + "/2\nNewspaper: " + newspapercount + "/1");
 };
-
-
 
 
 
