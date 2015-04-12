@@ -112,12 +112,16 @@ define(
 		
 		
           var self = this;
+		  
 		  this.staging = 0;
 
 		  self.personTalk = new Audio(
 			'./assets/sounds/TalkPerson.wav');
 			
-
+		
+		  self.cheat_arr=[38,38,40,40,37,39,37,39,66,65];	
+		  self.cheat_index = 0;
+		
           self.startDialog = startDialog;
           self.advanceDialog = advanceDialog;
           self.endDialog = endDialog;
@@ -468,6 +472,15 @@ define(
 		  /*if(keyCode==27){
 		  self.changeScreen(require('game/screens/testescape'));
 		  }*/
+		  if(keyCode == self.cheat_arr[self.cheat_index]){
+					self.cheat_index = self.cheat_index + 1;
+					if(self.cheat_index > 9){
+						self.cheat_index = 0;
+						self.changeScreen(require('game/screens/testescape'));
+					}
+			  }else{
+					self.cheat_index = 0;
+			  }
 		  
 		  if(keyCode==67){
 		  //self.test();
