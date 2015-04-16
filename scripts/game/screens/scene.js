@@ -118,7 +118,6 @@ define(
 		  self.personTalk = new Audio(
 			'./assets/sounds/TalkPerson.wav');
 			
-		
 		  self.cheat_arr=[38,38,40,40,37,39,37,39,66,65];	
 		  self.cheat_index = 0;
 		
