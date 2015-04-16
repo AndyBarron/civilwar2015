@@ -1,7 +1,9 @@
 define(
   ['pixi', 'engine/classes/Screen', 'engine/graphics', 'engine/geometry', 'engine/arrays', '../constants', 'engine/base', '../npcloader'],
    function(PIXI, Screen, Images, Collisions, Arrays, constants) {  
-
+	function getHubScreen() {
+		return require('game/screens/GameHub');
+	}
 
 TestPauseScreen = new Screen({
   
@@ -20,7 +22,7 @@ init: function()
     newClip.push(Images.getTexture("unpressed_button.png"));
      
 
-    var button; = new PIXI.MovieClip(newClip);
+    var button = new PIXI.MovieClip(newClip);
 
    // var ub = Images.getTexture("unpressed_button.png");
     //var pb = Images.getTexture("pressed_button.png");
@@ -81,11 +83,8 @@ init: function()
   {
    if (Arrays.containsElement(constants.KEYS_EXIT,keyCode))
     {
-      this.changeScreen(TestWorldScreen);
-    } else if (Arrays.containsElement(constants.KEYS_INTERACT,keyCode)) { 
-        this.changeScreen(SampleMiniGame);
-    }
-
+      this.changeScreen(getHubScreen());
+}
   }
 
   });

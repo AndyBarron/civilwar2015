@@ -2,14 +2,13 @@
 define(
 
   ['pixi', 'engine/classes/Screen', 'engine/graphics', 'engine/input',
-  'engine/geometry', 'engine/helpers', 'engine/arrays', 'game/constants'],
+  'engine/geometry', 'engine/helpers', 'engine/arrays', 'game/constants', 'game/screens/testpause'],
   function(PIXI, Screen, graphics, input,
       geometry, helpers, arrays, constants) {
 	var counter = 0;
     'use strict';
 	
     return function(url) {
-	
 
       function startDialog(npc) {
 		//stage.addChild(graphics);
@@ -113,12 +112,16 @@ define(
 		
 		
           var self = this;
+		  
 		  this.staging = 0;
 
 		  self.personTalk = new Audio(
 			'./assets/sounds/TalkPerson.wav');
 			
-
+		
+		  self.cheat_arr=[38,38,40,40,37,39,37,39,66,65];	
+		  self.cheat_index = 0;
+		
           self.startDialog = startDialog;
           self.advanceDialog = advanceDialog;
           self.endDialog = endDialog;
@@ -466,12 +469,22 @@ define(
 		  
           var interacted = arrays.containsElement(constants.KEYS_INTERACT, keyCode);
 		  
-		  if(keyCode==27){
+		  /*if(keyCode==27){
 		  self.changeScreen(require('game/screens/testescape'));
-		  }
+		  }*/
+		  if(keyCode == self.cheat_arr[self.cheat_index]){
+					self.cheat_index = self.cheat_index + 1;
+					if(self.cheat_index > 9){
+						self.cheat_index = 0;
+						self.changeScreen(require('game/screens/testescape'));
+					}
+			  }else{
+					self.cheat_index = 0;
+			  }
 		  
 		  if(keyCode==67){
-		  self.test();
+		  //self.test();
+		  self.changeScreen(require('game/screens/testpause'));
 		  }
 		  
 		  if(this.staging==0 && interacted){

@@ -551,7 +551,6 @@ alert("You heard about what happened to the stationmaster.  This should help you
 };
 
 hubScene.test = function() {
-	
 
 alert("Orders from General McClellan!:\nSoldiers Identified: " + count + "/10\nNewspaper Found: "+papercount+"/5\nOfficers Talked To: " + officercount + "/4");
 };
@@ -566,8 +565,6 @@ var curr_seconds = d.getSeconds();
 console.log(curr_hour + ":" + curr_minute + ":" + curr_seconds);
 
 };
-
-
 
 
 
