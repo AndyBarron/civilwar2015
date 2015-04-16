@@ -1,6 +1,6 @@
 {
   "background": {
-    "texture": "env/UGRailroadMap.png",
+    "texture": "env/newtown.png",
     "x": -100,
     "y": -100
   },
@@ -8,330 +8,325 @@
     "scale": 0.2
   },
   "npcs": [
-  
-    {
-      "name": "Harriet Tubman",
-      "texture": "tubman.png",
+	{
+      "name": "Wounded Soldier",
+      "texture": "malevillager.png",
       "scale": 0.2,
-      "x": 250,
-      "y": 800,
+      "x": 200,
+      "y": 300,
       "dialog": [
-        "Hello my friend! Are you ready to go now?%Yes, I am!|Can I see what I still need?",
-		"#startEscapeGame()|#test()"
-		]
+	  "We thought that the rebellion was going to be over before it even started.",
+	  "That we would beat the REBELS at that first skirmish...",
+	  "And they would concede quickly...",
+	  "Oh how wrong we were...%Bull Run|Antietam|Say Goodbye",
+	  "Yes. I fear how long the war will go on now.|No...I didn't fight that day...|Take Care...",
+	  "Weeks become months. Months become years.|#END|#END",
+	  "This war will be nothing but endless.",
+	  "#customer1()"
+	]
     },
 	{
-      "name": "Newspaper",
-      "texture": "newspaper.png",
+      "name": "Wounded Soldier",
+      "texture": "malevillager.png",
       "scale": 0.2,
       "x": 300,
-      "y": 600,
+      "y": 300,
       "dialog": [
-	  "SEPTEMBER 1850, CONGRESS REACHES A GREAT COMPROMISE LED BY HENRY CLAY AND STEPHEN DOUGLAS",
-	  "Congress admits CALIFORNIA into the Union as a FREE STATE.",
-	  "Both the territories of UTAH and NEW MEXICO are organized now under rule of POPULAR SOVEREIGNTY.",
-	  "And a harsher FUGITIVE SLAVE ACT has been passed in Congress.",
-	  "This is already being claimed as greatest compromise since the MISSOURI COMPROMISE OF 1820.",
-	  "#newspaper()"
-		]
-    },
-    {
-      "name": "Female Villager",
-      "texture": "femalevillager2.png",
-      "scale": 0.2,
-      "x": 3300,
-      "y": 800,
-      "dialog": [
-        "Can I help you, sir?%I think you are a friend of HARRIET TUBMAN!|Nope!",
-        "ME? A friend of the most famous UNDERGROUND RAILROAD CONDUCTOR?|Okay...",
-		"That's a very big claim! (and one that can get me in some trouble...)|#END",
-		"(hmmmm how can I find out whether I can trust him)",
-		"(I know! I can test him! Good thinking, Susan!)",
-		"Alright, let me make sure you're a true ABOLITIONIST, want to take my test?%Yes!|No!",
-		"Excellent!|Oh...okay then.",
-		"(Hmmm....question one, question one...)|#END",
-		"Who is the editor for THE LIBERATOR?%William Lloyd Garrison|Jefferson Davis",
-		"Too easy! Even a SECESSIONIST would know that one!|WRONG! Come back when you're a true ABOLITIONIST.",
-		"(Hmmm...question two, question two...)|#END",
-		"Alright! What is the name of HARRIET BEECHER STOWE'S book?%A Tale of Two Cities|Uncle Tom's Cabin",
-		"So very wrong! Try reading an ABOLITIONIST book next time!|Uncle Tom's Cabin is correct! (lucky guess...)",
-		"#END|(Alright...question three, question three, final question, gotta stump him...)",
-		"AHA! The MISSOURI COMPROMISE 30 years ago added what state to OUR SIDE of the Union. The FREE Side!%Missouri|Maine",
-		"If that's your side of the Union, than you might as well be a SECESSIONIST!|You're right! Maine is the free state that was added!",
-		"Missouri is a SLAVE STATE!|I'm sorry for doubting you, you have to be very cautious in the South.",
-		"#END|Ever since the FUGITIVE SLAVE ACT, any one who helps out an escaped slave can be fined!",
-		"Worse, the slave will be dragged back to their master's plantation.",
-		"Even if they were in a free state!",
-		"The only safe place now for slaves is out of the country!",
-		"Here! Take these clothes.  Hopefully you are able to get up North!",
-		"Safe travels, and remember, if anyone needs a STATIONMASTER, me and my husband are here to serve!",
-		"#clothes()"
-
-      ]
+	  "Many people here are from the first major skirmish.",
+	  "I did not fight there, but my battle was not any less important...",
+	  "In fact, I suspect this will be the bloodiest battle of this war...%Bull Run|Antietam|Say Goodbye",
+	  "Like I said...not that battle...|Yes, that's the one...|Take care...",
+	  "#END|The amount of men who died that day...|#END",
+	  "It makes me wonder how long this fighting will go on...",
+	  "#customer2()"
+	]
     },
 	{
-      "name": "Female Villager",
-      "texture": "femalevillager.png",
-      "scale": 0.2,
-      "x": 2000,
-      "y": 600,
-      "dialog": [
-	  "There's been word that a UNDERGROUND RAILROAD STATIONMASTER was caught just a few miles west of here.",
-	  "Serves him right for trying to shuffle slaves up North.",
-	  "Or was it a woman? Either way, shame on him!",
-	  "...Or her!",
-	  "#gossip1()"
-      ]
-    },
-    {
-      "name": "Female Villager",
-      "texture": "femalevillager.png",
-      "scale": 0.2,
-      "x": 1200,
-      "y": 900,
-      "dialog": [
-	  "I'm reading this book by HARRIET BEECHER STOWE.  Have you heard of it?%Yes!|What book?|What's it called??",
-	  "Oh, so you've read it too?|It's this book called UNCLE TOM'S CABIN.|It's called UNCLE TOM'S CABIN.",
-	  "Apparently a lot of folks love this up North.",
-	  "I'm no ABOLITIONIST, but I can't help to feel put off by some of the things in here..."
-      ]
-    },
-	{
-      "name": "Male Villager",
-      "texture": "malevillager.png",
-      "scale": 0.2,
-      "x": 2700,
-      "y": 600,
-      "dialog": [
-        "Pssst! You there. You wouldn't happen to know if the CONDUCTOR is in town, would you?%Maybe I do|Nope",
-        "Aha! A fellow ABOLITIONIST!|My mistake...I thought you were a fighter for freedom...",
-		"You see? Not all Southerners are slaveholders.|#END",
-		"Make sure you have this map.  It will help you plan your route.",
-		"Also, talk to my wife! She can get you clothes.",
-		"She is very cautious though, so make sure you answer her questions right!",
-		"#map()"
-
-      ]
-    },
-    {
-      "name": "Male Villager",
-      "texture": "malevillager.png",
-      "scale": 0.2,
-      "x": 500,
-      "y": 700,
-      "dialog": [
-        "Did you hear? Congress just passed a series of bills in a huge COMPROMISE.",
-		"HENRY CLAY and STEPHEN DOUGLAS helped write it.",
-		"I read about them in that newspaper over there."
-		]
-    },
-    {
-      "name": "Male Villager",
+      "name": "Wounded Soldier",
       "texture": "malevillager2.png",
       "scale": 0.2,
-      "x": 900,
-      "y": 900,
+      "x": 400,
+      "y": 300,
       "dialog": [
-        "I'm not sure how I feel about the COMPROMISE of 1850.",
-		"I like how the North and South were able to find a way to settle issues...",
-		"But I'm afraid it will only last for so long...",
-		"I mean, sure, a compromise was reached today.",
-		"But what if a compromise can't be reached in the future?",
-		"What will happen to this young country?"
-		]
+	  "We met the REBELS in a field near MANASSAS.",
+	  "We thought it would be quick. A easily crushed Rebellion.",
+	  "Those REBELS assured it wouldn't be...%Bull Run|Antietam|Say Goodbye",
+	  "Yes...that's the battle...|No...I did not fight there...|Take Care...",
+	  "The Battle of Manassas...|#END|#END",
+	  "Or the Battle of Bull Run as some call it.",
+	  "#customer3()"
+	]
     },
 	{
-      "name": "Female Slave",
-      "texture": "slave1.png",
-      "scale": 1.0,
-      "x": 1000,
-      "y": 1200,
-      "dialog": [
-	  "Can I do something for you, sir?%Are you looking to get on the RAILROAD?|Nope.",
-	  "Are you a CONDUCTOR? Oh thank the Lord!|Okay then...",
-	  "Ever since the FUGITIVE SLAVE ACT was passed, I thought I would never be able to safely get up North.|#END",
-	  "#paper1()"
-		]
-    },
-	{
-      "name": "Female Slave",
-      "texture": "slave2.png",
-      "scale": 1.0,
-      "x": 1400,
-      "y": 1400,
-      "dialog": [
-	  "Are you the CONDUCTOR?%Yes I am!|No",
-	  "Excellent! I am ready to go whenever!|Oh...forget I said anything.",
-	  "#paper2()|#END"
-		]
-    },
-	{
-      "name": "Female Slave",
-      "texture": "slave3.png",
-      "scale": 1.0,
-      "x": 2000,
-      "y": 1200,
-      "dialog": [
-	  "I'm ready to get on the RAILROAD whenever you are, sir!",
-	  "#paper3()"
-		]
-    },
-	{
-      "name": "Male Slave",
-      "texture": "slave4.png",
-      "scale": 1.0,
-      "x": 800,
-      "y": 1400,
-      "dialog": [
-	  "I'm ready to go whenever HARRIET TUBMAN is, sir!",
-	  "#paper4()"
-		]
-    },
-	{
-      "name": "Male Slave",
-      "texture": "slave5.png",
-      "scale": 1.0,
-      "x": 2400,
-      "y": 1800,
-      "dialog": [
-	  "I heard you are shuffling slaves up North...%Indeed, I am|Who me?",
-	  "Excellent. I have my stuff packed! Just give me the word when we're leaving.|Oh, my mistake then sir.",
-	  "#paper5()|#END"
-		]
-    },
-	{
-      "name": "Male Slave",
-      "texture": "slave6.png",
-      "scale": 1.0,
+      "name": "Wounded Soldier",
+      "texture": "malevillager.png",
+      "scale": 0.2,
       "x": 500,
-      "y": 2000,
+      "y": 300,
       "dialog": [
-	  " Rumors are that the lady over there is helping runaway slaves get out of the country.",
-	  "I think that's a fine and brave deed, but there's no way I want to get too associated with that.",
-	  "The new FUGITIVE SLAVE ACT is too frightening for me to try and leave.",
-	  "I do have supplies for the runaways hidden under a tree here.",
-	  "I just wish I remember which tree it was..." 
-		]
+	  "Men...Thousands of men...dead in the mud...",
+	  "And all for what? There was no victor...",
+	  "Thousands of bodies, and no clear winner at all...%Bull Run|Antietam|Say Goodbye",
+	  "No...many men died there, but more here...|Yes, that is the one...|Take care...",
+	  "#END|So many bodies...so many died...|#END",
+	  "I am scared to imagine how many more lie ahead...",
+	  "#customer4()"
+	]
     },
 	{
-      "name": "Male Slave",
-      "texture": "slave7.png",
-      "scale": 1.0,
-      "x": 350,
-      "y": 2400,
-      "dialog": [
-	  "I hear you're helping my friends on the UNDERGROUND RAILROAD",
-	  "They'll need food if they're going to survive...Take this!",
-	  "Say hi to FREDERICK DOUGLASS for me if you see him.",
-	  "That man is an inspirational speaker.",
-	  "#food1()"
-		]
-    },
-	{
-      "name": "Male Slave",
-      "texture": "slave8.png",
-      "scale": 1.0,
-      "x": 3000,
-      "y": 2000,
-      "dialog": [
-	  "Although the STATIONMASTERS on the UNDERGROUND RAILROAD will have food, it's better to be safe than sorry.",
-	  "Please, take this with you!",
-	  "#food2()"
-		]
-    },
-	{
-      "name": "Male Slave",
-      "texture": "slave9.png",
-      "scale": 1.0,
-      "x": 3400,
-      "y": 1000,
-      "dialog": [
-	  "I have been able to sneak in some literature using some underground networks.",
-	  "I am a huge fan of WILLIAM LLOYD GARRISON'S THE LIBERATOR.  I feel like he really understands our plight.",
-	  "I recently got UNCLE TOM'S CABIN by HARRIET BEECHER STOWE.",
-	  "I've been reading that to the others at night when the masters are asleep.",
-	  "Such a beautiful book. I heard even the Queen of England liked it!"
-		]
-    },
-	{
-      "name": "Male Slave",
-      "texture": "slave1.png",
-      "scale": 1.0,
-      "x": 3200,
-      "y": 1600,
-      "dialog": [
-	  "I've been hearing the masters debate over this new COMPROMISE Congress has passed.",
-	  "All I know is that things are definitely going to get harder for runaway slaves."
-		]
-    },
-	{
-      "name": "Male Slave",
-      "texture": "slave2.png",
-      "scale": 1.0,
-      "x": 3400,
-      "y": 3200,
-      "dialog": [
-	  "If I was half as brave as HARRIET TUBMAN, I'd be a CONDUCTOR too!"
-		]
-    },
-	{
-      "name": "Female Slave",
-      "texture": "slave3.png",
-      "scale": 1.0,
-      "x": 2600,
-      "y": 2000,
-      "dialog": [
-	  "You're doing a wonderful thing for my friends, sir!",
-	  "Please take this on your journey.",
-	  "#food3()"
-		]
-    },
-	{
-      "name": "Female Slave",
-      "texture": "slave4.png",
-      "scale": 1.0,
-      "x": 2400,
-      "y": 2200,
-      "dialog": [
-	  "I hear you are trying to shuffle some of my friends out of here.",
-	  "If I were you, don't go to the town directly north of here.",
-	  "The STATIONMASTER had to move away so there's no place to rest.",
-	  "#gossip2()"
-		]
-    },
-	{
-      "name": "Female Slave",
-      "texture": "slave5.png",
-      "scale": 1.0,
-      "x": 1000,
-      "y": 2400,
-      "dialog": [
-	  "A lot of southerners these days are ANTI-ABOLITIONIST and some are even SECESSIONISTS.",
-	  "However, I think a man and his wife on this plantation are actually undercover ABOLITIONISTS."
-		]
-    },
-	{
-      "name": "Female Slave",
-      "texture": "slave6.png",
-      "scale": 1.0,
-      "x": 2000,
-      "y": 1600,
-      "dialog": [
-	  "If I talk to you, the master might get mad."
-		]
-    },
-	{
-      "name": "Female Slave",
-      "texture": "slave7.png",
-      "scale": 1.0,
+      "name": "Wounded Soldier",
+      "texture": "femalevillager.png",
+      "scale": 0.2,
       "x": 600,
-      "y": 2000,
+      "y": 300,
       "dialog": [
-	  "People are happy about the COMPROMISE, but it's just like the MISSOURI COMPROMISE 30 years ago.",
-	  "It will make people happy in the North like adding Maine.",
-	  "And it will make people happy in the South like adding Missouri",
-	  "But it will only make them happy for a short period of time."
-		]
+	  "It was horrifying...we thought it would be so easy...",
+	  "The rebellion crushed, the CONFEDERACY defeated.",
+	  "JACKSON and his men made sure it wouldn't be that way...%Bull Run|Antietam|Say Goodbye",
+	  "Yes...that is the one...|No...I wasn't at that battle...|Take care...",
+	  "His forces were so strong...|#END|#END",
+	  "It was like we were fighting a...STONEWALL",
+	  "#customer5()"
+	]
+    },
+	{
+      "name": "Wounded Soldier",
+      "texture": "femalevillager.png",
+      "scale": 0.2,
+      "x": 700,
+      "y": 300,
+      "dialog": [
+	  "The CONFEDERATES were outnumbered.",
+	  "We thought we had them, but...!",
+	  "General LEE was too powerful...",
+	  "So many lost that day...more than any other battle so far...%Bull Run|Antietam|Say Goodbye",
+	  "Many died there, yes. But many more died in this battle.|Yes, that day...|Take care...",
+	  "#END|LEE is such a formidable force to battle against...|#END",
+	  "It is unfortunate that he aligns with VIRGINIA and not his country.",
+	  "#customer6()"
+	]
+    },
+	{
+      "name": "Wounded Soldier",
+      "texture": "femalevillager2.png",
+      "scale": 0.2,
+      "x": 800,
+      "y": 300,
+      "dialog": [
+	  "Thomas 'Stonewall' Jackson...",
+	  "What a force to fight against...",
+	  "No matter how hard we pushed, he and his forces did not budge%Bull Run|Antietam|Say Goodbye",
+	  "Yes...I fought at Bull Run...|I did not fight there, no...|Take care...",
+	  "Although he is a CONFEDERATE GENERAL, I do respect his might.|#END|#END",
+	  "He has certainly become more myth than man with the men who fought his troops...",
+	  "#customer7()"
+	]
+    },
+		{
+      "name": "Wounded Soldier",
+      "texture": "femalevillager2.png",
+      "scale": 0.2,
+      "x": 900,
+      "y": 300,
+      "dialog": [
+	  "We had General MCCLELLAN leading us that day.",
+	  "Fighting against LEE and his forces...",
+	  "While MCCLELLAN is strong, he was no match for LEE'S defense...%Bull Run|Antietam|Say Goodbye",
+	  "No, not there...|Yes, there...|Take care...",
+	  "#END|Thousands of lives lost...|#END",
+	  "I imagine more lives lost than any other battle so far...",
+	  "#customer8()"
+	]
+    },
+	{
+      "name": "Wounded Soldier",
+      "texture": "femalevillager.png",
+      "scale": 0.2,
+      "x": 1000,
+      "y": 300,
+      "dialog": [
+	  "I stood ready to fight, preparing myself for battle.",
+	  "And on the hillside looking down at us, do you know what I see?",
+	  "Men and women, dressed up, having a picnic.",
+	  "Oh the horrors they probably witnessed...?%Bull Run|Antietam|Say Goodbye",
+	  "Yes...that battle...|No, not that battle...|Take care...",
+	  "To think, they thought it was going to be over so quickly...|#END|#END",
+	  "That they brought lunch to sit and watch the war end...",
+	  "#customer9()"
+	]
+    },
+	{
+      "name": "Wounded Soldier",
+      "texture": "femalevillager2.png",
+      "scale": 0.2,
+      "x": 1100,
+      "y": 300,
+      "dialog": [
+	  "I joined this army a year after the first skirmish",
+	  "I thought by then the CONFEDERATES would have slowed down...",
+	  "But they didn't, LEE and the REBELS are able to hold their ground...",
+	  "This war is not slowing down...it is speeding up...%Bull Run|Antietam|Say Goodbye",
+	  "No, I did not fight there...|Yes, that battle...|Take care...",
+	  "#END|We have spent two years fighting now...|#END",
+	  "How much longer will this war go on?",
+	  "#customer10()"
+	]
+    },{
+      "name": "Clara Barton",
+      "texture": "malevillager.png",
+      "scale": 0.2,
+      "x": 1200,
+      "y": 300,
+      "dialog": [
+	  "I have been working as a NURSE here during this war, and I am astonished by what these men have gone through...",
+	  "I plan to try and create an organization to help many who are in need all over...",
+	  "A RED CROSS",
+	  "But before that, I need to help these soldiers...",
+	  "In order to do that, I need to know what battles they fought in...",
+	  "Please sir, can you figure out what battles they served in to help me?"
+	]
+    },
+	{
+      "name": "General McClellan",
+      "texture": "general lee.png",
+      "scale": 0.2,
+      "x": 1300,
+      "y": 300,
+      "dialog": [
+	  "Have you done what you needed to do, soldier?%Yes|No|What do I need to do?",
+	  "#startShipGame()|See to it that you do it!|First help out Ms. Barton with the Wounded soldiers!",
+	  "Doesn't look like it!|#END|Then, relay to my naval captains to hold their respective ports!",
+	  "#END|#END|Then, relay to my naval captains to hold their respective ports!",
+	  "#END|#END|Finally, get all the information from NEWSPAPERS you can!"
+	]
+    },
+	{
+      "name": "The Liberator",
+      "texture": "newspaper.png",
+      "scale": 0.2,
+      "x": 1400,
+      "y": 100,
+      "dialog": [
+	  "CLASH OF IRONCLADS",
+	  "March, 1862, The UNION MONITOR and CSS MERRIMACK meet in HAMPTON ROADS",
+	  "While neither side emerged victorious, the sight was a spectacle of military might!",
+	  "This was the first time in Naval History two ironclads fought in battle!",
+	  "#paper1()"
+	]
+    },
+	{
+      "name": "The Liberator",
+      "texture": "newspaper.png",
+      "scale": 0.2,
+      "x": 1500,
+      "y": 300,
+      "dialog": [
+	  "BOTH UNION AND CONFEDERACY ARE DEVELOPING IRONCLADS",
+	  "Friend of The Liberator reports that both the UNION and CONFEDERACY have ironclad warships!",
+	  "It is only a matter of time before a full-scale ironclad battle will ensue!",
+	  "#paper2()"
+	]
+    },
+	{
+      "name": "The Liberator",
+      "texture": "newspaper.png",
+      "scale": 0.2,
+      "x": 1600,
+      "y": 300,
+      "dialog": [
+	  "UNION BLOCKING SOUTHERN PORTS",
+	  "As part of the UNION naval strategy, blockades are forming around Southern ports!",
+	  "This is stopping European countries from trading with the Confederacy for their raw goods!",
+	  "This surely will cripple the Southern economy!",
+	  "#paper3()"
+	]
+    },
+	{
+      "name": "The Liberator",
+      "texture": "newspaper.png",
+      "scale": 0.2,
+      "x": 1700,
+      "y": 300,
+      "dialog": [
+	  "September, 1862: BLOODIEST BATTLE YET",
+	  "GENERAL MCCLELLAN and GENERAL LEE meet at ANTIETAM.",
+	  "While LEE was outnumbered, Union forces had a hard time damaging Southern defenses.",
+	  "Hundreds of thousands dead after bloodiest battle of war yet!",
+	  "#paper4()"
+	]
+    },
+	{
+      "name": "The Liberator",
+      "texture": "newspaper.png",
+      "scale": 0.2,
+      "x": 1800,
+      "y": 300,
+      "dialog": [
+	  "July 1861: First Major Battle of War Begins!",
+	  "CONFEDERATE REBELS and UNION SOLDIERS meet in BULL RUN for first battle!",
+	  "What was first thought to be a quick victory for UNION forces turned into a crushing defeat.",
+	  "This was due in part to the military might of Confederate Generals like STONEWALL JACKSON.",
+	  "No one knows how long this war will last, but it will no longer be over as soon as we had thought.",
+	  "#paper5()"
+	]
+    },
+	{
+      "name": "Naval Officer",
+      "texture": "newspaper.png",
+      "scale": 0.2,
+      "x": 1500,
+      "y": 500,
+      "dialog": [
+	  "Orders from General McClellan, sir?%Hold the port!|Allow ships to pass through!",
+	  "Absolutely! This will drain the Southern economy dry!|Are you sure, sir? That doesn't sound right.",
+	  "#naval1()|#END"
+	]
+    },
+	{
+      "name": "Naval Officer",
+      "texture": "newspaper.png",
+      "scale": 0.2,
+      "x": 1500,
+      "y": 600,
+      "dialog": [
+	  "ROBERT SMALLS is very impressive!",
+	  "He was a slave who managed to free himself and his crew by taking control of his ship!",
+	  "I wish I had half the bravery of that man.",
+	  "Orders from General McClellan, sir?%Hold the port!|Allow ships to pass through!",
+	  "Absolutely! This will drain the Southern economy dry!|Are you sure, sir? That doesn't sound right.",
+	  "#naval2()|#END"
+	]
+    },
+	{
+      "name": "Naval Officer",
+      "texture": "newspaper.png",
+      "scale": 0.2,
+      "x": 1500,
+      "y": 700,
+      "dialog": [
+	  "I heard that one of the main reasons why PRESIDENT LINCOLN is allowing black soldiers is because of ROBERT SMALLS.",
+	  "SMALLS bravery and resolve apparently inspired LINCOLN",
+	  "As an ABOLITIONIST, I think it's great we have fellow AMERICANS beside us fighting for the UNION!",
+	  "Orders from General McClellan, sir?%Hold the port!|Allow ships to pass through!",
+	  "Absolutely! This will drain the Southern economy dry!|Are you sure, sir? That doesn't sound right.",
+	  "#naval3()|#END"
+	]
+    },
+	{
+      "name": "ROBERT SMALLS",
+      "texture": "newspaper.png",
+      "scale": 0.2,
+      "x": 1500,
+      "y": 800,
+      "dialog": [
+	  "People talk of my military accomplishments and my bravery a lot.",
+	  "This humbles me, but to be honest, I'd love nothing to more for this country after the war.",
+	  "If i can, I'd love to be one of the first black representatives to CONGRESS.",
+	  "I think in that way, I can really serve this country after the war.",
+	  "Orders from General McClellan, sir?%Hold the port!|Allow ships to pass through!",
+	  "Absolutely! This will drain the Southern economy dry!|Are you sure, sir? That doesn't sound right.",
+	  "#naval4()|#END"
+	]
     },
 	{
       "name": "",
@@ -341,3079 +336,42 @@
       "y": 750,
       "dialog": [
 	]
-	
     },
 	{
       "name": "",
       "texture": "tree.png",
-      "scale": 1,
-      "x": 400,
-      "y": 650,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 700,
-      "y": 700,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1000,
-      "y": 650,
-      "dialog": [
-	  "AHA! The canteen is under here!",
-	  "#tree()"
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1400,
-      "y": 800,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1900,
-      "y": 650,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2300,
-      "y": 900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2400,
-      "y": 600,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2800,
-      "y": 600,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3000,
-      "y": 800,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3300,
-      "y": 600,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3400,
-      "y": 800,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3700,
-      "y": 900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 300,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 200,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 400,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 500,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 600,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 700,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 800,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 900,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1000,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1100,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1200,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1300,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1400,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
       "scale": 1,
       "x": 1500,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1600,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1700,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1800,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1900,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2000,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2100,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2200,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2300,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2400,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2500,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2600,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2700,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2800,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2900,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3000,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3100,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3200,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3300,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3400,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3500,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 300,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 200,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 400,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 500,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 600,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 700,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 800,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 900,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1000,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1300,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1200,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1300,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1400,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1500,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1600,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1700,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1800,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1900,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2000,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2100,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2200,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2300,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2400,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2500,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2600,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2700,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2800,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2900,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3000,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3100,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3200,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3300,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3400,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3500,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 300,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 200,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 400,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 500,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 600,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 700,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 800,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 900,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1000,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1500,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1200,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1300,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1400,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1500,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1600,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1700,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1800,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1900,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2000,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2100,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2200,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2300,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2400,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2500,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2600,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2700,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2800,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2900,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3000,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3100,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3200,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3300,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3400,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3500,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 300,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 200,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 400,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 500,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 600,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 700,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 800,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 900,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1000,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1900,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1200,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1300,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1400,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1900,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1600,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1900,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1800,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1900,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2000,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2100,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2200,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2300,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2400,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2500,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2600,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2700,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2800,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2900,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3000,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3100,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3200,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3300,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3400,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3500,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 300,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 200,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 400,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 500,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 600,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 700,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 800,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 900,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1000,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2100,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1200,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1300,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1400,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2100,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1600,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2100,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1800,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 1900,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2000,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2100,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2200,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2300,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2400,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2500,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2600,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2700,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2800,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2900,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3000,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3100,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3200,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3300,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3400,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3500,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2800,
-      "y": 2300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2900,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3000,
-      "y": 2300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3100,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3200,
-      "y": 2300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3300,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3400,
-      "y": 2300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3500,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3600,
-      "y": 2300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2800,
-      "y": 2700,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2900,
-      "y": 2900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3000,
-      "y": 2700,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3100,
-      "y": 2900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3200,
-      "y": 2700,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3300,
-      "y": 2900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3400,
-      "y": 2700,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3500,
-      "y": 2900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3600,
-      "y": 2700,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2800,
-      "y": 3300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 2900,
-      "y": 3100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3000,
-      "y": 3300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3100,
-      "y": 3100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3200,
-      "y": 3300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3300,
-      "y": 3100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3400,
-      "y": 3300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3500,
-      "y": 3100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "cotton.png",
-      "scale": 1,
-      "x": 3600,
-      "y": 3300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "Start of Right Side",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 0,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 200,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
       "y": 300,
       "dialog": [
 	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 400,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 600,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 700,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 800,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 1000,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 1200,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 1400,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 1600,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 1700,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 1800,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 2000,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 2200,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 2300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 2400,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 2600,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 2700,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 2800,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 2900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 3000,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 3100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 3200,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 3300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 3400,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 3500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 3600,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "End of Right Side",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
-      "y": 3700,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "Start of Left Side",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 0,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 200,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 400,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 600,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 700,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 800,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 1000,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 1100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 1200,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 1300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 1400,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 1500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 1600,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 1700,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 1800,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 1900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 2000,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 2100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 2200,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 2300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 2400,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2700,
-      "y": 2600,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2700,
-      "y": 2700,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2700,
-      "y": 2800,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2700,
-      "y": 2900,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2700,
-      "y": 3000,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2700,
-      "y": 3100,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2700,
-      "y": 3200,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2700,
-      "y": 3300,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2700,
-      "y": 3400,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2700,
-      "y": 3500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2700,
-      "y": 3600,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "End of Left Side",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2700,
-      "y": 3700,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "Start of Upper Side",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 0,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 100,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 200,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 300,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 400,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 500,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 600,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 700,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 800,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-		{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 900,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1000,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1100,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1200,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1300,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1400,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1500,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1600,
-      "y": 500,
-      "dialog": [
-	]
-	
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
       "x": 1700,
-      "y": 500,
+      "y": 300,
       "dialog": [
 	]
-	
     },
 	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1800,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-		{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
       "x": 1900,
-      "y": 500,
+      "y": 200,
       "dialog": [
 	]
-	
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 2000,
-      "y": 500,
+      "x": 2100,
+      "y": 300,
       "dialog": [
 	]
-	
     },
 	{
       "name": "",
@@ -3423,37 +381,170 @@
       "y": 500,
       "dialog": [
 	]
-	
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 2200,
-      "y": 500,
+      "x": 2500,
+      "y": 2400,
       "dialog": [
 	]
-	
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 2300,
-      "y": 500,
+      "x": 2500,
+      "y": 2300,
       "dialog": [
 	]
-	
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 2400,
-      "y": 500,
+      "x": 2500,
+      "y": 2200,
       "dialog": [
 	]
-	
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 2100,
+      "dialog": [
+	]
+    },{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 2000,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 1900,
+      "dialog": [
+	]
+    },{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 1800,
+      "dialog": [
+	]
+    },
+	{
+      "name": "Groot",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 1700,
+      "dialog": [
+      ]
+    },{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 1600,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 1500,
+      "dialog": [
+	]
+    },{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 1400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 1300,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 1200,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 1100,
+      "dialog": [
+	]
+    },{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 1000,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 900,
+      "dialog": [
+	]
+    },{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 800,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 700,
+      "dialog": [
+	]
+    },{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 600,
+      "dialog": [
+	]
     },
 	{
       "name": "",
@@ -3463,554 +554,743 @@
       "y": 500,
       "dialog": [
 	]
-	
+    },{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 400,
+      "dialog": [
+	]
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 2600,
-      "y": 500,
+      "x": 2500,
+      "y": 300,
       "dialog": [
 	]
-	
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 2700,
-      "y": 500,
+      "x": 2500,
+      "y": 200,
       "dialog": [
 	]
-	
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 2800,
-      "y": 500,
+      "x": 2500,
+      "y": 100,
       "dialog": [
 	]
-	
-    },
-		{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2900,
-      "y": 500,
-      "dialog": [
-	]
-	
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 3000,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3100,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3200,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3300,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3400,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3500,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3600,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3700,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3800,
-      "y": 500,
-      "dialog": [
-	]
-	
-    },
-		{
-      "name": "End of Upper Side",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 3900,
+      "x": 2500,
       "y": -100,
       "dialog": [
 	]
-	
-    },
-	{
-      "name": "Start of Lower Side",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": -100,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 0,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 100,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 200,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 300,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 400,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 500,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 600,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 700,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 800,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-		{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 900,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1000,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1100,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1200,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1300,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1400,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1500,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1600,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1700,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1800,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-		{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 1900,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2000,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2100,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2200,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2300,
-      "y": 2500,
-      "dialog": [
-	]
-	
-    },
-	{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2400,
-      "y": 2500,
-      "dialog": [
-	]
-	
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
       "x": 2500,
-      "y": 2500,
+      "y": 0,
       "dialog": [
 	]
-	
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 2600,
-      "y": 2500,
+      "x": -100,
+      "y": 2400,
       "dialog": [
 	]
-	
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 2700,
-      "y": 2500,
+      "x": -100,
+      "y": 2300,
       "dialog": [
 	]
-	
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 2800,
-      "y": 3800,
+      "x": -100,
+      "y": 2200,
       "dialog": [
 	]
-	
-    },
-		{
-      "name": "",
-      "texture": "tree.png",
-      "scale": 1,
-      "x": 2900,
-      "y": 3800,
-      "dialog": [
-	]
-	
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 3000,
-      "y": 3800,
+      "x": -100,
+      "y": 2100,
       "dialog": [
 	]
-	
+    },{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": -100,
+      "y": 2000,
+      "dialog": [
+	]
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 3100,
-      "y": 3800,
+      "x": -100,
+      "y": 1900,
       "dialog": [
 	]
-	
+    },{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": -100,
+      "y": 1800,
+      "dialog": [
+	]
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 3200,
-      "y": 3800,
+      "x": -100,
+      "y": 1700,
       "dialog": [
 	]
-	
+    },{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": -100,
+      "y": 1600,
+      "dialog": [
+	]
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 3300,
-      "y": 3800,
+      "x": -100,
+      "y": 1500,
       "dialog": [
 	]
-	
+    },{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": -100,
+      "y": 1400,
+      "dialog": [
+	]
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 3400,
-      "y": 3800,
+      "x": -100,
+      "y": 1300,
       "dialog": [
 	]
-	
+    },
+	{
+      "name": "Robert E. Tree",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": -100,
+      "y": 1200,
+      "dialog": [
+	  "I am just a tree! Leaf me alone!"
+	]
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 3500,
-      "y": 3800,
+      "x": -100,
+      "y": 1100,
       "dialog": [
 	]
-	
+    },{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": -100,
+      "y": 1000,
+      "dialog": [
+	]
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 3600,
-      "y": 3800,
+      "x": -100,
+      "y": 900,
       "dialog": [
 	]
-	
+    },{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": -100,
+      "y": 800,
+      "dialog": [
+	]
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 3700,
-      "y": 3800,
+      "x": -100,
+      "y": 700,
       "dialog": [
 	]
-	
+    },{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": -100,
+      "y": 600,
+      "dialog": [
+	]
     },
 	{
       "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 3800,
-      "y": 3800,
+      "x": -100,
+      "y": 500,
       "dialog": [
 	]
-	
-    },
-		{
-      "name": "End of Lower Side",
+    },{
+      "name": "",
       "texture": "tree.png",
       "scale": 1,
-      "x": 3900,
-      "y": 3800,
+      "x": -100,
+      "y": 400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": -100,
+      "y": 300,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": -100,
+      "y": 200,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": -100,
+      "y": 100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": -100,
+      "y": 0,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 0,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 100,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 200,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 300,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 400,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 500,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 600,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 700,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 800,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 900,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1000,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1100,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1200,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "Robert E. Tree",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1300,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1400,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1500,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1600,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1700,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1800,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1900,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2000,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2100,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2200,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2300,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2400,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2500,
+      "y": 2400,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": -100,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 0,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 100,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 200,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 300,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 400,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 500,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 600,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 700,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 800,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 900,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1000,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1100,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1200,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1300,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1400,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1500,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1600,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1700,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1800,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 1900,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2000,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2100,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2200,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2300,
+      "y": -100,
+      "dialog": [
+	]
+    },
+	{
+      "name": "",
+      "texture": "tree.png",
+      "scale": 1,
+      "x": 2400,
+      "y": -100,
       "dialog": [
 	]
     }

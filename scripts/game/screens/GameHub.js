@@ -7,27 +7,25 @@ define(
 	var count = 0;
 	var overallcount = 0;
 	var papercount = 0;
-	var mapcount = 0;
-	var gossipcount = 0;
-	var canteencount = 0;
-	var clothescount = 0;
-	var newspapercount = 0;
+	var officercount = 0;
     var hubScene = scene('data/scenes/hub.json?blah=blahblah');
 	hubScene.music = new Audio('./assets/music/town_music.ogg');
 	hubScene.music.loop = true;
 	hubScene.music.play();
     hubScene.startEscapeGame = function() { 
 	
-	if(overallcount > 13){
-		
-		this.changeScreen(EscapeScreen);
-	  }
     };
     hubScene.startShipGame = function() {
       //alert(ShipScreen);
-	  hubScene.music.pause();
-	  ShipScreen.music.play();
-      this.changeScreen(ShipScreen);
+	  if(overallcount > 15){
+		
+		hubScene.music.pause();
+		ShipScreen.music.play();
+		this.changeScreen(ShipScreen);
+
+		
+	  }
+
     };
 	hubScene.paper1 = function() {
 	var obj = "1";
@@ -44,9 +42,10 @@ define(
 	papercount++;
 	overallcount++;
 	paperarray.push(obj);
-console.log(papercount);
+	console.log("Paper 1 Found");
+	hubScene.time();
 //console.log(famousarray[i]);
-alert("Passenger " + papercount + "/5 Found!");
+	alert("Old Newspaper " + papercount + "/5 Found!");
 }
     };
 	hubScene.paper2 = function() {
@@ -64,9 +63,10 @@ alert("Passenger " + papercount + "/5 Found!");
 	papercount++;
 	overallcount++;
 	paperarray.push(obj);
-console.log(papercount);
+	console.log("Paper 2 Found");
+	hubScene.time();
 //console.log(famousarray[i]);
-alert("Passenger " + papercount + "/5 Found!");
+alert("Old Newspaper " + papercount + "/5 Found!");
 }
     };
 	hubScene.paper3 = function() {
@@ -85,9 +85,10 @@ alert("Passenger " + papercount + "/5 Found!");
 	overallcount++;
 
 	paperarray.push(obj);
-console.log(papercount);
+	console.log("Paper 3 Found");
+	hubScene.time();
 //console.log(famousarray[i]);
-alert("Passenger " + papercount + "/5 Found!");
+alert("Old Newspaper " + papercount + "/5 Found!");
 }
     };
 	hubScene.paper4 = function() {
@@ -106,9 +107,10 @@ alert("Passenger " + papercount + "/5 Found!");
 	overallcount++;
 
 	paperarray.push(obj);
-console.log(papercount);
+	console.log("Paper 4 Found");
+	hubScene.time();
 //console.log(famousarray[i]);
-alert("Passenger " + papercount + "/5 Found!");
+alert("Old Newspaper " + papercount + "/5 Found!");
 }
     };
 	hubScene.paper5 = function() {
@@ -127,13 +129,244 @@ alert("Passenger " + papercount + "/5 Found!");
 	overallcount++;
 
 	paperarray.push(obj);
-console.log(papercount);
+	console.log("Paper 5 Found");
+	hubScene.time();
 //console.log(famousarray[i]);
-alert("Passenger " + papercount + "/5 Found!");
+alert("Old Newspaper " + papercount + "/5 Found!");
 }
     };
-	hubScene.food1 = function() {
-	var obj = "Food One";
+	hubScene.customer1 = function() {
+	var obj = "Customer One";
+
+	 var i = famousarray.length;
+	 var nocontains = true;
+    for (i=0;i<famousarray.length;i++) {
+		//console.log(famousarray[i]);
+       if (famousarray[i] === obj) {
+	   nocontains = false;
+       }
+    }
+    if(nocontains){
+	count++;
+	overallcount++;
+
+	famousarray.push("Customer One");
+	console.log("Soldier 1 Itentified");
+	hubScene.time();
+//console.log(famousarray[i]);
+alert("Soldier " + count + "/10 Identified!");
+}
+    };
+
+	hubScene.customer2 = function() {
+	var obj = "Customer Two";
+
+	 var i = famousarray.length;
+	 var nocontains = true;
+    for (i=0;i<famousarray.length;i++) {
+		//console.log(famousarray[i]);
+       if (famousarray[i] === obj) {
+	   nocontains = false;
+       }
+    }
+    if(nocontains){
+	count++;
+	overallcount++;
+
+	famousarray.push("Customer Two");
+	console.log("Soldier 2 Itentified");
+	hubScene.time();
+//console.log(famousarray[i]);
+alert("Soldier " + count + "/10 Identified!");
+}
+    };
+
+	hubScene.customer3 = function() {
+	var obj = "Customer Three";
+
+	 var i = famousarray.length;
+	 var nocontains = true;
+    for (i=0;i<famousarray.length;i++) {
+		//console.log(famousarray[i]);
+       if (famousarray[i] === obj) {
+	   nocontains = false;
+       }
+    }
+    if(nocontains){
+	count++;
+	overallcount++;
+
+	famousarray.push("Customer Three");
+	console.log("Soldier 3 Itentified");
+	hubScene.time();
+//console.log(famousarray[i]);
+alert("Soldier " + count + "/10 Identified!");
+}
+    };
+
+	hubScene.customer4 = function() {
+	var obj = "Customer Four";
+
+	 var i = famousarray.length;
+	 var nocontains = true;
+    for (i=0;i<famousarray.length;i++) {
+		//console.log(famousarray[i]);
+       if (famousarray[i] === obj) {
+	   nocontains = false;
+       }
+    }
+    if(nocontains){
+	count++;
+	overallcount++;
+
+	famousarray.push("Customer Four");
+	console.log("Soldier 4 Itentified");
+	hubScene.time();
+//console.log(famousarray[i]);
+alert("Soldier " + count + "/10 Identified!");
+}
+    };
+	
+	hubScene.customer5 = function() {
+	var obj = "Customer Five";
+
+	 var i = famousarray.length;
+	 var nocontains = true;
+    for (i=0;i<famousarray.length;i++) {
+		//console.log(famousarray[i]);
+       if (famousarray[i] === obj) {
+	   nocontains = false;
+       }
+    }
+    if(nocontains){
+	count++;
+	overallcount++;
+
+	famousarray.push("Customer Five");
+	console.log("Soldier 5 Itentified");
+	hubScene.time();
+//console.log(famousarray[i]);
+alert("Soldier " + count + "/10 Identified!");
+}
+    };
+
+	hubScene.customer6 = function() {
+	var obj = "Customer Six";
+
+	 var i = famousarray.length;
+	 var nocontains = true;
+    for (i=0;i<famousarray.length;i++) {
+		//console.log(famousarray[i]);
+       if (famousarray[i] === obj) {
+	   nocontains = false;
+       }
+    }
+    if(nocontains){
+	count++;
+	overallcount++;
+
+	famousarray.push("Customer Six");
+	console.log("Soldier 6 Itentified");
+	hubScene.time();
+//console.log(famousarray[i]);
+alert("Soldier " + count + "/10 Identified!");
+}
+    };
+	
+	hubScene.customer7 = function() {
+	var obj = "Customer Seven";
+
+	 var i = famousarray.length;
+	 var nocontains = true;
+    for (i=0;i<famousarray.length;i++) {
+		//console.log(famousarray[i]);
+       if (famousarray[i] === obj) {
+	   nocontains = false;
+       }
+    }
+    if(nocontains){
+	count++;
+	overallcount++;
+
+	famousarray.push("Customer Seven");
+	console.log("Soldier 7 Itentified");
+	hubScene.time();
+//console.log(famousarray[i]);
+alert("Soldier " + count + "/10 Identified!");
+}
+    };
+
+	hubScene.customer8 = function() {
+	var obj = "Customer Eight";
+
+	 var i = famousarray.length;
+	 var nocontains = true;
+    for (i=0;i<famousarray.length;i++) {
+		//console.log(famousarray[i]);
+       if (famousarray[i] === obj) {
+	   nocontains = false;
+       }
+    }
+    if(nocontains){
+	count++;
+	overallcount++;
+
+	famousarray.push("Customer Eight");
+	console.log("Soldier 8 Itentified");
+	hubScene.time();
+//console.log(famousarray[i]);
+alert("Soldier " + count + "/10 Identified!");
+}
+    };
+
+	hubScene.customer9 = function() {
+	var obj = "Customer Nine";
+
+	 var i = famousarray.length;
+	 var nocontains = true;
+    for (i=0;i<famousarray.length;i++) {
+		//console.log(famousarray[i]);
+       if (famousarray[i] === obj) {
+	   nocontains = false;
+       }
+    }
+    if(nocontains){
+	count++;
+	overallcount++;
+
+	famousarray.push("Customer Nine");
+	console.log("Soldier 9 Itentified");
+	hubScene.time();
+//console.log(famousarray[i]);
+alert("Soldier " + count + "/10 Identified!");
+}
+    };
+
+	hubScene.customer10 = function() {
+	var obj = "Customer Ten";
+
+	 var i = famousarray.length;
+	 var nocontains = true;
+    for (i=0;i<famousarray.length;i++) {
+		//console.log(famousarray[i]);
+       if (famousarray[i] === obj) {
+	   nocontains = false;
+       }
+    }
+    if(nocontains){
+	count++;
+	overallcount++;
+
+	famousarray.push("Customer Ten");
+	console.log("Soldier 10 Itentified");
+	hubScene.time();
+//console.log(famousarray[i]);
+alert("Soldier " + count + "/10 Identified!");
+}
+    };
+	
+	hubScene.customer11 = function() {
+	var obj = "Customer Eleven";
 
 	 var i = famousarray.length;
 	 var nocontains = true;
@@ -147,13 +380,15 @@ alert("Passenger " + papercount + "/5 Found!");
 	count++;
 	overallcount++;
 
-	famousarray.push("Food One");
+	famousarray.push("Customer Eleven");
 console.log(count);
 //console.log(famousarray[i]);
-alert("Food Supplies " + count + "/3 Found!");
+alert("Paper " + count + "/11 Delivered!");
 }
     };
-	hubScene.food2 = function() {
+
+//BREAKKKKKKKK
+	hubScene.naval1 = function() {
 	
 	 var i = famousarray.length;
 	 var nocontains = true;
@@ -164,16 +399,16 @@ alert("Food Supplies " + count + "/3 Found!");
        }
     }
     if(nocontains){
-	count++;
+	officercount++;
 	overallcount++;
 
 	famousarray.push("Food Two");
-console.log(count);
-console.log(famousarray[i]);
-alert("Food Supplies " + count + "/3 Found!");
+	console.log("Naval Officer 1 Relayed To");
+	hubScene.time();
+alert("Naval Officers " + officercount + "/4 Reported To!");
 }
     };
-hubScene.food3 = function() {
+hubScene.naval2 = function() {
 	
 	 var i = famousarray.length;
 	 var nocontains = true;
@@ -184,16 +419,16 @@ hubScene.food3 = function() {
        }
     }
     if(nocontains){
-	count++;
+	officercount++;
 	overallcount++;
 
 	famousarray.push("Food Three");
-console.log(count);
-console.log(famousarray[i]);
-alert("Food Supplies " + count + "/3 Found!");
+	console.log("Naval Officer 2 Relayed To");
+	hubScene.time();
+alert("Naval Officers " + count + "/4 Reported To!");
 }
     };
-hubScene.map = function() {
+hubScene.naval3 = function() {
 	
 	 var i = famousarray.length;
 	 var nocontains = true;
@@ -205,15 +440,15 @@ hubScene.map = function() {
     }
     if(nocontains){
 	overallcount++;
-	mapcount++;
+	officercount++;
 	famousarray.push("Map");
-console.log(overallcount);
-console.log(famousarray[i]);
-alert("You have been given the local map!");
+	console.log("Naval Officer 3 Relayed To");
+	hubScene.time();
+alert("Naval Officers " + officercount + "/4 Reported To!");
 }
 };
 
-hubScene.clothes = function() {
+hubScene.naval4 = function() {
 	
 	 var i = famousarray.length;
 	 var nocontains = true;
@@ -225,15 +460,16 @@ hubScene.clothes = function() {
     }
     if(nocontains){
 	overallcount++;
-	clothescount++;
+	officercount++;
 	famousarray.push("Clothes");
-console.log(overallcount);
-console.log(famousarray[i]);
-alert("You have been given a set of clothes for the passengers!");
+	console.log("Naval Officer 4 Relayed To");
+	hubScene.time();
+alert("Naval Officers " + officercount + "/4 Reported To!");
+
 }
 };
 
-hubScene.tree = function() {
+hubScene.naval5 = function() {
 	
 	 var i = famousarray.length;
 	 var nocontains = true;
@@ -247,9 +483,9 @@ hubScene.tree = function() {
 	overallcount++;
 	canteencount++;
 	famousarray.push("Tree");
-console.log(overallcount);
-console.log(famousarray[i]);
-alert("You have found the canteen under the tree!");
+	console.log("Naval Officer 5 Relayed To");
+	hubScene.time();
+alert("Naval Officers " + count + "/5 Reported To!");
 }
 };
 
@@ -267,9 +503,10 @@ hubScene.newspaper = function() {
 	overallcount++;
 	newspapercount++;
 	famousarray.push("Newspaper");
-console.log(overallcount);
-console.log(famousarray[i]);
-alert("You have read about what is going on in the Newspaper!");
+	console.log("Naval Officer 5 Relayed To");
+	hubScene.time();
+alert("Naval Officers " + count + "/5 Reported To!");
+
 }
 };
 
@@ -316,7 +553,18 @@ alert("You heard about what happened to the stationmaster.  This should help you
 hubScene.test = function() {
 	
 
-alert("Checklist for Escape!\nPassengers: " + papercount + "/5\nFood: " + count + "/3\nMap:" + mapcount + "/1\nClothes: " + clothescount + "/1\nCanteen: " + canteencount + "/1\nGossip: " + gossipcount + "/2\nNewspaper: " + newspapercount + "/1");
+alert("Orders from General McClellan!:\nSoldiers Identified: " + count + "/10\nNewspaper Found: "+papercount+"/5\nOfficers Talked To: " + officercount + "/4");
+};
+
+hubScene.time = function() {
+
+var d = new Date();
+var curr_hour = d.getHours();
+var curr_minute = d.getMinutes();
+var curr_seconds = d.getSeconds();
+
+console.log(curr_hour + ":" + curr_minute + ":" + curr_seconds);
+
 };
 
 
