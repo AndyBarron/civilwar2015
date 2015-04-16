@@ -13,8 +13,8 @@ function(PIXI, Screen, Images, Collisions, constants, arrays) {
 		this.question = question;
 		this.answer = answer;
 		this.touching = function(pos){
-			console.log(pos);
-			console.log(this.sprite.getBounds());
+			//console.log(pos);
+			//console.log(this.sprite.getBounds());
 			pos.width=1;
 			pos.height=1;
 			if(Collisions.doRectanglesOverlap(this.sprite.getBounds(), pos, 0)){
@@ -421,8 +421,8 @@ function(PIXI, Screen, Images, Collisions, constants, arrays) {
 			this.stage.addChild(this.otherText);
 
 
-			this.otherText3 = new PIXI.Text("Welcome to the USS Monitor!",{font:"30px Arial "});
-			this.otherText3.position.x = 190;
+			this.otherText3 = new PIXI.Text("Welcome to the USS Monitor Blockade!",{font:"30px Arial "});
+			this.otherText3.position.x = 150;
 			this.otherText3.position.y = 225;
 			this.stage.addChild(this.otherText3);
 
@@ -432,7 +432,7 @@ function(PIXI, Screen, Images, Collisions, constants, arrays) {
 			this.stage.addChild(this.otherText4);
 
 			this.otherText5 = new PIXI.Text("But if not, shoot it down by clicking on it!",{font:"18px Arial "});
-			this.otherText5.position.x = 250;
+			this.otherText5.position.x = 240;
 			this.otherText5.position.y = 350;
 			this.stage.addChild(this.otherText5);
 
@@ -479,7 +479,7 @@ function(PIXI, Screen, Images, Collisions, constants, arrays) {
 		  },
 		  update: function(delta)
 		  {
-		  console.log(this.staging);
+		  //console.log(this.staging);
 		  if(this.staging==1){
 
 		  if(this.playerShip.sprite.currentFrame == 5){
@@ -562,7 +562,7 @@ function(PIXI, Screen, Images, Collisions, constants, arrays) {
 		  },
 		  onKeyDown: function(keyCode)
 		  {
-			console.log(this.staging);
+			//console.log(this.staging);
 			if(this.staging==1){
 		  	if (arrays.containsElement(constants.KEYS_EXIT, keyCode)) {
 		  		alert('Exiting game!');
@@ -571,7 +571,7 @@ function(PIXI, Screen, Images, Collisions, constants, arrays) {
 		  		this.music.pause();
 				getHubScreen().music.play();
 		  		this.changeScreen(getHubScreen());
-		  		console.log(this.nextScreen);
+		  		//console.log(this.nextScreen);
 		  		return;
 		  	}
 			/*if(keyCode == 67){
@@ -579,11 +579,11 @@ function(PIXI, Screen, Images, Collisions, constants, arrays) {
 				resetGame(this);
 			}*/
 			  if(keyCode == 65){
-					console.log("PRESSED A");
+					//console.log("PRESSED A");
 					this.answerSubmitted = 'A';
 			  }
 			  else if(keyCode == 66){
-					console.log("PRESSED B");
+					//console.log("PRESSED B");
 					this.answerSubmitted = 'B';
 			  }else{
 				this.answerSubmitted = '';
@@ -613,7 +613,7 @@ function(PIXI, Screen, Images, Collisions, constants, arrays) {
 			}
 			if(this.staging==0){
 				if(keyCode == 65){
-					console.log("PRESSED A");
+					//console.log("PRESSED A");
 			  }
 			  this.staging++;
 			  this.stage.removeChild(this.graphics);
@@ -630,7 +630,7 @@ function(PIXI, Screen, Images, Collisions, constants, arrays) {
 		  },
 		  onMouseDown: function(point)
 		  {
-			  console.log(point);
+			 // console.log(point);
 			if(this.enemy.touching(point)){
 				console.log("Clicked on Ship");
 				this.playerShip.sprite.play();
@@ -722,7 +722,7 @@ function(PIXI, Screen, Images, Collisions, constants, arrays) {
 	}
 	function wrongAnswer(game){
 		game.playerLives--;
-		console.log(game.playerLives);
+		//console.log(game.playerLives);
 		//game.playerShip.sprite.gotoAndPlay(6);
 		updateLivesText(game);
 		if(game.playerLives < 1){

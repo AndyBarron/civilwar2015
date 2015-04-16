@@ -10,8 +10,8 @@
   "npcs": [
 	{
       "name": "Wounded Soldier",
-      "texture": "malevillager.png",
-      "scale": 0.2,
+      "texture": "woundedsoldier.png",
+      "scale": 0.8,
       "x": 200,
       "y": 300,
       "dialog": [
@@ -27,8 +27,8 @@
     },
 	{
       "name": "Wounded Soldier",
-      "texture": "malevillager.png",
-      "scale": 0.2,
+      "texture": "woundedsoldier.png",
+      "scale": 0.8,
       "x": 300,
       "y": 300,
       "dialog": [
@@ -43,8 +43,8 @@
     },
 	{
       "name": "Wounded Soldier",
-      "texture": "malevillager2.png",
-      "scale": 0.2,
+      "texture": "woundedsoldier.png",
+      "scale": 0.8,
       "x": 400,
       "y": 300,
       "dialog": [
@@ -59,8 +59,8 @@
     },
 	{
       "name": "Wounded Soldier",
-      "texture": "malevillager.png",
-      "scale": 0.2,
+      "texture": "woundedsoldier.png",
+      "scale": 0.8,
       "x": 500,
       "y": 300,
       "dialog": [
@@ -75,8 +75,8 @@
     },
 	{
       "name": "Wounded Soldier",
-      "texture": "femalevillager.png",
-      "scale": 0.2,
+      "texture": "woundedsoldier.png",
+      "scale": 0.8,
       "x": 600,
       "y": 300,
       "dialog": [
@@ -91,8 +91,8 @@
     },
 	{
       "name": "Wounded Soldier",
-      "texture": "femalevillager.png",
-      "scale": 0.2,
+      "texture": "woundedsoldier.png",
+      "scale": 0.8,
       "x": 700,
       "y": 300,
       "dialog": [
@@ -108,8 +108,8 @@
     },
 	{
       "name": "Wounded Soldier",
-      "texture": "femalevillager2.png",
-      "scale": 0.2,
+      "texture": "woundedsoldier.png",
+      "scale": 0.8,
       "x": 800,
       "y": 300,
       "dialog": [
@@ -124,8 +124,8 @@
     },
 		{
       "name": "Wounded Soldier",
-      "texture": "femalevillager2.png",
-      "scale": 0.2,
+      "texture": "woundedsoldier.png",
+      "scale": 0.8,
       "x": 900,
       "y": 300,
       "dialog": [
@@ -140,8 +140,8 @@
     },
 	{
       "name": "Wounded Soldier",
-      "texture": "femalevillager.png",
-      "scale": 0.2,
+      "texture": "woundedsoldier.png",
+      "scale": 0.8,
       "x": 1000,
       "y": 300,
       "dialog": [
@@ -157,8 +157,8 @@
     },
 	{
       "name": "Wounded Soldier",
-      "texture": "femalevillager2.png",
-      "scale": 0.2,
+      "texture": "woundedsoldier.png",
+      "scale": 0.8,
       "x": 1100,
       "y": 300,
       "dialog": [
@@ -173,8 +173,8 @@
 	]
     },{
       "name": "Clara Barton",
-      "texture": "malevillager.png",
-      "scale": 0.2,
+      "texture": "clarabarton.png",
+      "scale": 0.8,
       "x": 1200,
       "y": 300,
       "dialog": [
@@ -188,7 +188,7 @@
     },
 	{
       "name": "General McClellan",
-      "texture": "general lee.png",
+      "texture": "mcclellan.png",
       "scale": 0.2,
       "x": 1300,
       "y": 300,
@@ -272,8 +272,8 @@
     },
 	{
       "name": "Naval Officer",
-      "texture": "newspaper.png",
-      "scale": 0.2,
+      "texture":"unionsoldier.png",
+      "scale": 0.8,
       "x": 1500,
       "y": 500,
       "dialog": [
@@ -284,8 +284,8 @@
     },
 	{
       "name": "Naval Officer",
-      "texture": "newspaper.png",
-      "scale": 0.2,
+      "texture": "unionsoldier.png",
+      "scale": 0.8,
       "x": 1500,
       "y": 600,
       "dialog": [
@@ -299,8 +299,8 @@
     },
 	{
       "name": "Naval Officer",
-      "texture": "newspaper.png",
-      "scale": 0.2,
+      "texture": "unionsoldier.png",
+      "scale": 0.8,
       "x": 1500,
       "y": 700,
       "dialog": [
@@ -314,8 +314,8 @@
     },
 	{
       "name": "ROBERT SMALLS",
-      "texture": "newspaper.png",
-      "scale": 0.2,
+      "texture": "unionsoldier.png",
+      "scale": 0.8,
       "x": 1500,
       "y": 800,
       "dialog": [

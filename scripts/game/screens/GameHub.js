@@ -5,7 +5,7 @@ define(
 	var famousarray = ["Test", "Jerk"];
 	var paperarray = ["0", "Dog", "Salamander"];
 	var count = 0;
-	var overallcount = 0;
+	var overallcount = 17;
 	var papercount = 0;
 	var officercount = 0;
     var hubScene = scene('data/scenes/hub.json?blah=blahblah');

@@ -94,14 +94,14 @@ define(
       }
 	  function testTwo() {
 	  
-	  console.log("OH Baby!");
+	  //console.log("OH Baby!");
 	  }
 	  function sleep() {
 	  setTimeout(sheep,1000);
 
 	  }
 	  function sheep() {
-	  console.alert("Pooooooop");
+	  //console.alert("Pooooooop");
 
 	  }
       return new Screen({
@@ -193,18 +193,18 @@ define(
 			self.otherText.position.y = 50;
 			self.stage.addChild(self.otherText);
 			
-			self.otherText3 = new PIXI.Text("The Year is 1860 and you have arrived on a Virginia Plantation.",{font:"20px Arial "});
+			self.otherText3 = new PIXI.Text("The Year is 1862 and you have arrived on a Virginia Plantation.",{font:"20px Arial "});
 			self.otherText3.position.x =  120;
 			self.otherText3.position.y = 150;
 			self.stage.addChild(self.otherText3);
 			
-			self.otherText4 = new PIXI.Text("You are delivering the news that ABRAHAM LINCOLN has just been elected President.",{font:"14px Arial "});
-			self.otherText4.position.x = 110;
+			self.otherText4 = new PIXI.Text("You are acting as GENERAL MCCLELLAN'S aide and helping the UNION TROOPS.",{font:"14px Arial "});
+			self.otherText4.position.x = 130;
 			self.otherText4.position.y = 230;
 			self.stage.addChild(self.otherText4);
 			
-			self.otherText6 = new PIXI.Text("Deliver the correct newspaper to each person based on their political views!",{font:"16px Arial "});
-			self.otherText6.position.x = 120;
+			self.otherText6 = new PIXI.Text("Help wounded soldiers, relay orders, and collect newspapers to unlock the minigame!",{font:"16px Arial "});
+			self.otherText6.position.x = 110;
 			self.otherText6.position.y = 280;
 			self.stage.addChild(self.otherText6);
 
@@ -476,7 +476,7 @@ define(
 					self.cheat_index = self.cheat_index + 1;
 					if(self.cheat_index > 9){
 						self.cheat_index = 0;
-						self.changeScreen(require('game/screens/testescape'));
+						self.changeScreen(require('game/screens/testMini'));
 					}
 			  }else{
 					self.cheat_index = 0;
@@ -485,6 +485,10 @@ define(
 		  if(keyCode==67){
 		  //self.test();
 		  self.changeScreen(require('game/screens/testpause'));
+		  }
+		  
+		  if(keyCode==69){
+			self.test();
 		  }
 		  
 		  if(this.staging==0 && interacted){
