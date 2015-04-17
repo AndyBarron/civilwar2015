@@ -554,6 +554,10 @@ hubScene.strupdate = function() {
 hubScene.teststr = "Orders from General McClellan!:\nSoldiers Identified: " + count + "/10\nNewspaper Found: "+papercount+"/5\nOfficers Talked To: " + officercount + "/4";
 //alert("Orders from General McClellan!:\nSoldiers Identified: " + count + "/10\nNewspaper Found: "+papercount+"/5\nOfficers Talked To: " + officercount + "/4");
 };
+
+hubScene.test = function(){
+alert("Orders from General McClellan!:\nSoldiers Identified: " + count + "/10\nNewspaper Found: "+papercount+"/5\nOfficers Talked To: " + officercount + "/4");
+}
 hubScene.time = function() {
 
 var d = new Date();

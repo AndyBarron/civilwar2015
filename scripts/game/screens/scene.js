@@ -482,9 +482,9 @@ define(
 			  }
 		  
 		  if(keyCode==67){
-		  //self.test();
-		  self.strupdate();
-		  self.changeScreen(require('game/screens/testpause'));
+		  self.test();
+		  //self.strupdate();
+		  //self.changeScreen(require('game/screens/testpause'));
 		  }
 		  
 		  if(keyCode==69){

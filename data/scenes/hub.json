@@ -10,10 +10,10 @@
   "npcs": [
 	{
       "name": "Wounded Soldier",
-      "texture": "woundedsoldier.png",
+      "texture": "woundedsoldier1.png",
       "scale": 0.8,
-      "x": 200,
-      "y": 300,
+      "x": 800,
+      "y": 600,
       "dialog": [
 	  "We thought that the rebellion was going to be over before it even started.",
 	  "That we would beat the REBELS at that first skirmish...",
@@ -27,10 +27,10 @@
     },
 	{
       "name": "Wounded Soldier",
-      "texture": "woundedsoldier.png",
+      "texture": "woundedsoldier2.png",
       "scale": 0.8,
-      "x": 300,
-      "y": 300,
+      "x": 1000,
+      "y": 1000,
       "dialog": [
 	  "Many people here are from the first major skirmish.",
 	  "I did not fight there, but my battle was not any less important...",
@@ -43,10 +43,10 @@
     },
 	{
       "name": "Wounded Soldier",
-      "texture": "woundedsoldier.png",
+      "texture": "woundedsoldier3.png",
       "scale": 0.8,
-      "x": 400,
-      "y": 300,
+      "x": 1000,
+      "y": 400,
       "dialog": [
 	  "We met the REBELS in a field near MANASSAS.",
 	  "We thought it would be quick. A easily crushed Rebellion.",
@@ -59,10 +59,10 @@
     },
 	{
       "name": "Wounded Soldier",
-      "texture": "woundedsoldier.png",
+      "texture": "woundedsoldier1.png",
       "scale": 0.8,
       "x": 500,
-      "y": 300,
+      "y": 1000,
       "dialog": [
 	  "Men...Thousands of men...dead in the mud...",
 	  "And all for what? There was no victor...",
@@ -75,10 +75,10 @@
     },
 	{
       "name": "Wounded Soldier",
-      "texture": "woundedsoldier.png",
+      "texture": "woundedsoldier2.png",
       "scale": 0.8,
-      "x": 600,
-      "y": 300,
+      "x": 900,
+      "y": 1200,
       "dialog": [
 	  "It was horrifying...we thought it would be so easy...",
 	  "The rebellion crushed, the CONFEDERACY defeated.",
@@ -91,10 +91,10 @@
     },
 	{
       "name": "Wounded Soldier",
-      "texture": "woundedsoldier.png",
+      "texture": "woundedsoldier3.png",
       "scale": 0.8,
-      "x": 700,
-      "y": 300,
+      "x": 1200,
+      "y": 900,
       "dialog": [
 	  "The CONFEDERATES were outnumbered.",
 	  "We thought we had them, but...!",
@@ -108,10 +108,10 @@
     },
 	{
       "name": "Wounded Soldier",
-      "texture": "woundedsoldier.png",
+      "texture": "woundedsoldier1.png",
       "scale": 0.8,
-      "x": 800,
-      "y": 300,
+      "x": 700,
+      "y": 1500,
       "dialog": [
 	  "Thomas 'Stonewall' Jackson...",
 	  "What a force to fight against...",
@@ -124,10 +124,10 @@
     },
 		{
       "name": "Wounded Soldier",
-      "texture": "woundedsoldier.png",
+      "texture": "woundedsoldier2.png",
       "scale": 0.8,
       "x": 900,
-      "y": 300,
+      "y": 1800,
       "dialog": [
 	  "We had General MCCLELLAN leading us that day.",
 	  "Fighting against LEE and his forces...",
@@ -140,10 +140,10 @@
     },
 	{
       "name": "Wounded Soldier",
-      "texture": "woundedsoldier.png",
+      "texture": "woundedsoldier3.png",
       "scale": 0.8,
       "x": 1000,
-      "y": 300,
+      "y": 800,
       "dialog": [
 	  "I stood ready to fight, preparing myself for battle.",
 	  "And on the hillside looking down at us, do you know what I see?",
@@ -157,10 +157,10 @@
     },
 	{
       "name": "Wounded Soldier",
-      "texture": "woundedsoldier.png",
+      "texture": "woundedsoldier1.png",
       "scale": 0.8,
-      "x": 1100,
-      "y": 300,
+      "x": 700,
+      "y": 1100,
       "dialog": [
 	  "I joined this army a year after the first skirmish",
 	  "I thought by then the CONFEDERATES would have slowed down...",
@@ -175,8 +175,8 @@
       "name": "Clara Barton",
       "texture": "clarabarton.png",
       "scale": 0.8,
-      "x": 1200,
-      "y": 300,
+      "x": 500,
+      "y": 800,
       "dialog": [
 	  "I have been working as a NURSE here during this war, and I am astonished by what these men have gone through...",
 	  "I plan to try and create an organization to help many who are in need all over...",
@@ -190,8 +190,8 @@
       "name": "General McClellan",
       "texture": "mcclellan.png",
       "scale": 0.2,
-      "x": 1300,
-      "y": 300,
+      "x": 1500,
+      "y": 600,
       "dialog": [
 	  "Have you done what you needed to do, soldier?%Yes|No|What do I need to do?",
 	  "#startShipGame()|See to it that you do it!|First help out Ms. Barton with the Wounded soldiers!",
@@ -204,7 +204,7 @@
       "name": "The Liberator",
       "texture": "newspaper.png",
       "scale": 0.2,
-      "x": 1400,
+      "x": 2200,
       "y": 100,
       "dialog": [
 	  "CLASH OF IRONCLADS",
@@ -218,8 +218,8 @@
       "name": "The Liberator",
       "texture": "newspaper.png",
       "scale": 0.2,
-      "x": 1500,
-      "y": 300,
+      "x": 200,
+      "y": 1100,
       "dialog": [
 	  "BOTH UNION AND CONFEDERACY ARE DEVELOPING IRONCLADS",
 	  "Friend of The Liberator reports that both the UNION and CONFEDERACY have ironclad warships!",
@@ -231,8 +231,8 @@
       "name": "The Liberator",
       "texture": "newspaper.png",
       "scale": 0.2,
-      "x": 1600,
-      "y": 300,
+      "x": 2400,
+      "y": 2200,
       "dialog": [
 	  "UNION BLOCKING SOUTHERN PORTS",
 	  "As part of the UNION naval strategy, blockades are forming around Southern ports!",
@@ -245,8 +245,8 @@
       "name": "The Liberator",
       "texture": "newspaper.png",
       "scale": 0.2,
-      "x": 1700,
-      "y": 300,
+      "x": 800,
+      "y": 2200,
       "dialog": [
 	  "September, 1862: BLOODIEST BATTLE YET",
 	  "GENERAL MCCLELLAN and GENERAL LEE meet at ANTIETAM.",
@@ -259,8 +259,8 @@
       "name": "The Liberator",
       "texture": "newspaper.png",
       "scale": 0.2,
-      "x": 1800,
-      "y": 300,
+      "x": 1700,
+      "y": 1500,
       "dialog": [
 	  "July 1861: First Major Battle of War Begins!",
 	  "CONFEDERATE REBELS and UNION SOLDIERS meet in BULL RUN for first battle!",
@@ -272,9 +272,9 @@
     },
 	{
       "name": "Naval Officer",
-      "texture":"unionsoldier.png",
+      "texture":"unionsoldier1.png",
       "scale": 0.8,
-      "x": 1500,
+      "x": 1800,
       "y": 500,
       "dialog": [
 	  "Orders from General McClellan, sir?%Hold the port!|Allow ships to pass through!",
@@ -284,10 +284,10 @@
     },
 	{
       "name": "Naval Officer",
-      "texture": "unionsoldier.png",
+      "texture": "unionsoldier2.png",
       "scale": 0.8,
-      "x": 1500,
-      "y": 600,
+      "x": 1900,
+      "y": 1200,
       "dialog": [
 	  "ROBERT SMALLS is very impressive!",
 	  "He was a slave who managed to free himself and his crew by taking control of his ship!",
@@ -299,10 +299,10 @@
     },
 	{
       "name": "Naval Officer",
-      "texture": "unionsoldier.png",
+      "texture": "unionsoldier3.png",
       "scale": 0.8,
-      "x": 1500,
-      "y": 700,
+      "x": 1600,
+      "y": 900,
       "dialog": [
 	  "I heard that one of the main reasons why PRESIDENT LINCOLN is allowing black soldiers is because of ROBERT SMALLS.",
 	  "SMALLS bravery and resolve apparently inspired LINCOLN",
@@ -316,8 +316,8 @@
       "name": "ROBERT SMALLS",
       "texture": "unionsoldier.png",
       "scale": 0.8,
-      "x": 1500,
-      "y": 800,
+      "x": 1300,
+      "y": 1800,
       "dialog": [
 	  "People talk of my military accomplishments and my bravery a lot.",
 	  "This humbles me, but to be honest, I'd love nothing to more for this country after the war.",
