@@ -483,11 +483,12 @@ define(
 		  
 		  if(keyCode==67){
 		  //self.test();
+		  self.strupdate();
 		  self.changeScreen(require('game/screens/testpause'));
 		  }
 		  
 		  if(keyCode==69){
-			self.test();
+			//self.test();
 		  }
 		  
 		  if(this.staging==0 && interacted){
